@@ -1,0 +1,204 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "329f34ff-4541-5fb9-b4e1-788c23ef983c",
+  "position": {
+    "x": 16,
+    "y": 335,
+    "z": 2000,
+    "height": 170,
+    "width": 1248,
+    "tabOrder": 2000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "model_results"
+                    }
+                  },
+                  "Property": "model"
+                }
+              },
+              "queryRef": "model_results.model",
+              "displayName": "Model"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "model_results"
+                    }
+                  },
+                  "Property": "roc_auc"
+                }
+              },
+              "queryRef": "model_results.roc_auc",
+              "displayName": "ROC-AUC"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "model_results"
+                    }
+                  },
+                  "Property": "pr_auc"
+                }
+              },
+              "queryRef": "model_results.pr_auc",
+              "displayName": "PR-AUC"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "model_results"
+                    }
+                  },
+                  "Property": "late_caught_top20"
+                }
+              },
+              "queryRef": "model_results.late_caught_top20",
+              "displayName": "Late lines caught (riskiest 20%)"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "model_results"
+                    }
+                  },
+                  "Property": "precision_top20"
+                }
+              },
+              "queryRef": "model_results.precision_top20",
+              "displayName": "Precision (riskiest 20%)"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "model_results"
+                    }
+                  },
+                  "Property": "base_late_rate"
+                }
+              },
+              "queryRef": "model_results.base_late_rate",
+              "displayName": "Base late rate"
+            }
+          ]
+        }
+      }
+    },
+    "objects": {
+      "grid": [
+        {
+          "properties": {
+            "textSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "9D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "total": [
+        {
+          "properties": {
+            "totals": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#0b0b0b'"
+                    }
+                  }
+                }
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#f4f3ef'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Late-delivery prediction on 2025 orders (trained on 2023–2024)'"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#0b0b0b'"
+                    }
+                  }
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

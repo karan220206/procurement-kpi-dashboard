@@ -1,0 +1,85 @@
+table upcoming_risk
+	lineageTag: 250bab8d-e878-569b-93a8-47344e1917a9
+
+	measure 'Upcoming High-Risk Lines' = CALCULATE(COUNTROWS(upcoming_risk), upcoming_risk[risk_band] = "High")
+		formatString: #,0
+		lineageTag: cf4597f8-8590-5b33-855e-409ab49c54fb
+
+	measure 'Upcoming Lines' = COUNTROWS(upcoming_risk)
+		formatString: #,0
+		lineageTag: 3badf1e7-6586-588b-be13-e6f93600a979
+
+	column po_id
+		dataType: string
+		lineageTag: 916b54e7-b8b8-5233-a741-5b436b1e990c
+		summarizeBy: none
+		sourceColumn: po_id
+
+	column line_no
+		dataType: int64
+		lineageTag: de85a547-4a92-51d5-be8a-ef361f8b6236
+		summarizeBy: none
+		sourceColumn: line_no
+
+	column vendor_id
+		dataType: string
+		lineageTag: 6d2ceb3c-430d-5dc1-8343-99a04cace04e
+		summarizeBy: none
+		sourceColumn: vendor_id
+
+	column category
+		dataType: string
+		lineageTag: bd5e81ce-5da1-586f-a6ef-812323c91583
+		summarizeBy: none
+		sourceColumn: category
+
+	column order_type
+		dataType: string
+		lineageTag: 6fd0c8d3-396a-5882-b7cb-2910c1f23161
+		summarizeBy: none
+		sourceColumn: order_type
+
+	column order_date
+		dataType: dateTime
+		formatString: dd-mmm-yyyy
+		lineageTag: 843099b2-405f-5444-ae9a-d2daab5639d5
+		summarizeBy: none
+		sourceColumn: order_date
+
+	column promised_date
+		dataType: dateTime
+		formatString: dd-mmm-yyyy
+		lineageTag: f77a3326-0b1a-5729-9480-488c0a4ce1bc
+		summarizeBy: none
+		sourceColumn: promised_date
+
+	column line_value
+		dataType: double
+		formatString: #,0
+		lineageTag: 5de8631a-1726-544b-9ea7-606672cd53bc
+		summarizeBy: sum
+		sourceColumn: line_value
+
+	column late_probability
+		dataType: double
+		formatString: 0%
+		lineageTag: 8cfe82d9-d1cc-5eca-ad48-baebd68c033a
+		summarizeBy: none
+		sourceColumn: late_probability
+
+	column risk_band
+		dataType: string
+		lineageTag: ddd1d32c-d95b-566e-8b3d-68c6ff9ca05e
+		summarizeBy: none
+		sourceColumn: risk_band
+
+	partition upcoming_risk = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(ProjectFolder & "\data\powerbi\upcoming_risk.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"po_id", type text}, {"line_no", Int64.Type}, {"vendor_id", type text}, {"category", type text}, {"order_type", type text}, {"order_date", type date}, {"promised_date", type date}, {"line_value", type number}, {"late_probability", type number}, {"risk_band", type text}}, "en-US")
+				in
+				    Typed
+

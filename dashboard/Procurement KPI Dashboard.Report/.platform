@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Procurement KPI Dashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "152bee5d-dd99-53c9-ba07-2fb4e7ad7173"
+  }
+}

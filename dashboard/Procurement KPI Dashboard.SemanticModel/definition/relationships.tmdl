@@ -1,0 +1,20 @@
+relationship 06b1622f-731e-528f-bdc4-3cd167c1a577
+	fromColumn: fact_po_lines.vendor_id
+	toColumn: dim_vendor.vendor_id
+
+relationship cf06042f-ea4b-55e1-a8ab-b3c7de64dbd8
+	fromColumn: fact_po_lines.item_id
+	toColumn: dim_item.item_id
+
+relationship 18576085-0eac-5fc8-b1ce-f7596262de4d
+	fromColumn: fact_po_lines.order_date
+	toColumn: dim_date.Date
+
+relationship c32e4b8f-7165-5cf6-977e-f8dbeceadc05
+	fromColumn: inventory_items.item_id
+	toColumn: dim_item.item_id
+
+relationship c7a962d9-270e-532b-94a2-955c8c8df86d
+	fromColumn: upcoming_risk.vendor_id
+	toColumn: dim_vendor.vendor_id
+

@@ -1,0 +1,25 @@
+kpi_no,kpi,sql,unit,pandas,match
+1,On-time delivery (OTD),70.98,%,70.9795173392821,True
+2,On-time in full (OTIF),62.55,%,62.551206651794764,True
+3,Average delay of late deliveries,10.55,days,10.54789244704372,True
+4,Average lead time,12.33,days,12.333598207008965,True
+5,Lead-time variability,8.72,days,8.721642912078751,True
+6,Fill rate,98.88,%,98.88358280315254,True
+7,Rejection rate (quantity),0.351,%,0.3510941835445562,True
+8,Receipts with rejections,4.52,%,4.5171922990486175,True
+9,Purchase price variance vs standard cost,4.21,%,4.2130696648807495,True
+10,Total spend,1540.04,₹ crore,1540.0405120209998,True
+11,Top vendor share of spend,18.74,%,18.742118299097328,True
+12,Top-5 vendor share of spend,39.29,%,39.292550330568744,True
+13,Vendor concentration (HHI),537.0,index,536.7488429489993,True
+14,Vendors making up 80% of spend,38.0,vendors,38.0,True
+15,Single-source items,18.95,%,18.946047678795484,True
+16,Bulk-buy savings realised,104.4,₹ crore,104.4012774855,True
+17,Bulk discount vs regular price,13.08,%,13.076291871076323,True
+18,Urgent-order premium paid,5.16,₹ crore,5.1568696995,True
+19,Urgent orders,9.82,%,9.819695423345541,True
+20,Excess inventory value,99.34,₹ crore,99.33730258500002,True
+21,Excess inventory share of stock,43.47,%,43.46653658223614,True
+22,Inventory turnover,2.41,times/year,2.406902777134,True
+23,Days of inventory on hand,151.6,days,151.64717223627156,True
+24,Overdue open PO lines,289.0,lines,289.0,True

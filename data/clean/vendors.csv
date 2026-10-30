@@ -1,0 +1,151 @@
+vendor_id,vendor_name,category,city,state,onboarding_date,payment_terms
+V001,Prime Iron & Steel Industries,Raw Materials,Pune,Maharashtra,2013-10-25,Unknown
+V002,Metro Iron & Steel & Co,Raw Materials,Faridabad,Haryana,2021-12-17,Net 30
+V003,Joshi Steel Industries,Raw Materials,Coimbatore,Tamil Nadu,2021-04-04,Net 30
+V004,Kulkarni Ispat Enterprises,Raw Materials,Kolkata,West Bengal,2023-08-12,Net 45
+V005,Reddy Metals Pvt Ltd,Raw Materials,Hyderabad,Telangana,2022-12-02,Net 30
+V006,Krishna Ispat Pvt Ltd,Raw Materials,Jaipur,Rajasthan,2023-04-07,Net 45
+V007,Mehta Alloys Pvt Ltd,Raw Materials,Ghaziabad,Uttar Pradesh,2023-11-09,Advance
+V008,Reddy Steel LLP,Raw Materials,Pune,Maharashtra,2019-09-29,Net 30
+V009,Shah Steel Pvt Ltd,Raw Materials,Ghaziabad,Uttar Pradesh,2020-08-27,Net 30
+V010,Patel Alloys Pvt Ltd,Raw Materials,Noida,Uttar Pradesh,2016-08-07,Net 45
+V011,Sai Ispat Ltd,Raw Materials,Delhi,Delhi,2023-11-28,Net 60
+V012,Laxmi Metals LLP,Raw Materials,Nagpur,Maharashtra,2014-08-08,Net 45
+V013,Gupta Iron & Steel Pvt Ltd,Raw Materials,Guwahati,Assam,2023-09-30,Advance
+V014,Shree Ispat Pvt Ltd,Raw Materials,Bengaluru,Karnataka,2016-03-06,Advance
+V015,Malhotra Metals Industries,Raw Materials,Coimbatore,Tamil Nadu,2017-06-29,Net 15
+V016,Om Ispat Industries,Raw Materials,Ahmedabad,Gujarat,2012-04-10,Net 45
+V017,United Ispat LLP,Raw Materials,Chennai,Tamil Nadu,2017-06-28,Net 45
+V018,Gupta Ispat Industries,Raw Materials,Kolkata,West Bengal,2024-08-28,Net 60
+V019,Reddy Iron & Steel Enterprises,Raw Materials,Hyderabad,Telangana,2015-01-06,Net 30
+V020,Apex Metals Pvt Ltd,Raw Materials,Coimbatore,Tamil Nadu,2018-08-02,Net 30
+V021,Kapoor Iron & Steel Pvt Ltd,Raw Materials,Bengaluru,Karnataka,2020-02-05,Net 60
+V022,Balaji Iron & Steel Pvt Ltd,Raw Materials,Delhi,Delhi,2013-03-04,Advance
+V023,Patel Alloys Ltd,Raw Materials,Nagpur,Maharashtra,2022-08-21,Net 30
+V024,Joshi Ispat Enterprises,Raw Materials,Bengaluru,Karnataka,2020-09-20,Net 60
+V025,Western Steel Industries,Raw Materials,Chennai,Tamil Nadu,2012-05-21,Net 45
+V026,Shah Iron & Steel Industries,Raw Materials,Indore,Madhya Pradesh,2016-06-22,Unknown
+V027,National Ispat Ltd,Raw Materials,Kolkata,West Bengal,2022-02-14,Net 30
+V028,Sunrise Metals Pvt Ltd,Raw Materials,Gurugram,Haryana,2020-02-14,Unknown
+V029,Hindustan Steel Enterprises,Raw Materials,Faridabad,Haryana,2015-12-20,Net 30
+V030,Sunrise Ispat Enterprises,Raw Materials,Noida,Uttar Pradesh,2023-03-29,Net 60
+V031,Jain Packaging Enterprises,Packaging,Guwahati,Assam,2022-01-02,Net 15
+V032,Gupta Packaging Enterprises,Packaging,Ludhiana,Punjab,2016-11-29,Net 30
+V033,Patel Packaging Industries,Packaging,Chennai,Tamil Nadu,2020-03-30,Net 15
+V034,Universal Polypack Industries,Packaging,Kolkata,West Bengal,2021-08-07,Net 15
+V035,Supreme Cartons Ltd,Packaging,Hyderabad,Telangana,2025-06-06,Net 30
+V036,Iyer Cartons Pvt Ltd,Packaging,Coimbatore,Tamil Nadu,2017-04-01,Net 30
+V037,Vardhman Packaging Enterprises,Packaging,Hyderabad,Telangana,2017-10-15,Net 30
+V038,Joshi Packers Pvt Ltd,Packaging,Kolkata,West Bengal,2025-03-03,Net 15
+V039,Krishna Polypack Pvt Ltd,Packaging,Bengaluru,Karnataka,2019-05-09,Net 30
+V040,Reddy Packers Pvt Ltd,Packaging,Mumbai,Maharashtra,2017-02-18,Net 30
+V041,Kapoor Packers Industries,Packaging,Pune,Maharashtra,2017-04-11,Net 30
+V042,Vardhman Packaging Pvt Ltd,Packaging,Pune,Maharashtra,2021-03-31,Net 45
+V043,Krishna Packers Industries,Packaging,Kolkata,West Bengal,2016-01-26,Net 60
+V044,Om Cartons Pvt Ltd,Packaging,Ghaziabad,Uttar Pradesh,2012-02-04,Net 30
+V045,Rao Polypack & Co,Packaging,Ghaziabad,Uttar Pradesh,2021-09-01,Net 45
+V046,Vardhman Cartons Enterprises,Packaging,Noida,Uttar Pradesh,2013-03-06,Net 30
+V047,Modern Pack Solutions & Co,Packaging,Kolkata,West Bengal,2014-08-30,Net 45
+V048,Bharat Packers Enterprises,Packaging,Nagpur,Maharashtra,2019-03-24,Net 60
+V049,Galaxy Packers Pvt Ltd,Packaging,Gurugram,Haryana,2019-09-12,Net 45
+V050,Hindustan Polypack Pvt Ltd,Packaging,Kochi,Kerala,2024-09-07,Unknown
+V051,Chopra Cartons Pvt Ltd,Packaging,Noida,Uttar Pradesh,2014-05-31,Net 15
+V052,Sai Pack Solutions Industries,Packaging,Indore,Madhya Pradesh,2022-10-14,Net 60
+V053,Nair Electricals Enterprises,Electrical & Electronics,Coimbatore,Tamil Nadu,2022-07-05,Net 30
+V054,Sunrise Electronics Pvt Ltd,Electrical & Electronics,Kochi,Kerala,2013-03-24,Net 15
+V055,Kapoor Electricals Ltd,Electrical & Electronics,Chennai,Tamil Nadu,2017-05-20,Net 30
+V056,Metro Electronics & Co,Electrical & Electronics,Kolkata,West Bengal,2012-07-14,Net 30
+V057,Singh Electricals Enterprises,Electrical & Electronics,Kolkata,West Bengal,2014-08-28,Net 45
+V058,Bansal Controls Ltd,Electrical & Electronics,Indore,Madhya Pradesh,2018-08-21,Net 30
+V059,Balaji Electricals Pvt Ltd,Electrical & Electronics,Bengaluru,Karnataka,2023-01-18,Net 45
+V060,Agarwal Electricals Ltd,Electrical & Electronics,Nagpur,Maharashtra,2025-06-23,Net 15
+V061,Pioneer Electricals Enterprises,Electrical & Electronics,Nagpur,Maharashtra,2015-03-30,Net 45
+V062,Global Electronics Enterprises,Electrical & Electronics,Delhi,Delhi,2019-12-26,Net 45
+V063,Galaxy Controls Pvt Ltd,Electrical & Electronics,Ahmedabad,Gujarat,2024-09-14,Advance
+V064,Star Electronics Ltd,Electrical & Electronics,Pune,Maharashtra,2020-02-28,Net 45
+V065,Apex Electricals & Co,Electrical & Electronics,Indore,Madhya Pradesh,2016-02-24,Net 60
+V066,Agarwal Electricals Pvt Ltd,Electrical & Electronics,Bengaluru,Karnataka,2023-12-26,Net 30
+V067,Vardhman Electronics Pvt Ltd,Electrical & Electronics,Kolkata,West Bengal,2017-09-28,Net 30
+V068,Nair Switchgear LLP,Electrical & Electronics,Ludhiana,Punjab,2021-12-01,Advance
+V069,Bharat Power Systems Pvt Ltd,Electrical & Electronics,Pune,Maharashtra,2014-10-14,Net 30
+V070,Patel Electronics & Co,Electrical & Electronics,Hyderabad,Telangana,2013-04-29,Net 60
+V071,Iyer Controls LLP,Electrical & Electronics,Faridabad,Haryana,2015-09-25,Net 30
+V072,Kulkarni Power Systems Ltd,Electrical & Electronics,Bengaluru,Karnataka,2023-05-01,Advance
+V073,Singh Controls Pvt Ltd,Electrical & Electronics,Guwahati,Assam,2018-09-09,Net 30
+V074,Laxmi Controls Pvt Ltd,Electrical & Electronics,Noida,Uttar Pradesh,2012-07-20,Net 45
+V075,Prime Controls Pvt Ltd,Electrical & Electronics,Kochi,Kerala,2012-09-06,Net 15
+V076,Star Power Systems Ltd,Electrical & Electronics,Ghaziabad,Uttar Pradesh,2022-06-14,Net 30
+V077,Joshi Controls Pvt Ltd,Electrical & Electronics,Faridabad,Haryana,2020-02-15,Net 45
+V078,Indo Hardware Ltd,MRO,Surat,Gujarat,2020-06-17,Net 45
+V079,Western Hardware Enterprises,MRO,Kochi,Kerala,2015-12-27,Advance
+V080,Apex Industrial Services Industries,MRO,Guwahati,Assam,2012-03-24,Net 45
+V081,Metro Engineering Pvt Ltd,MRO,Hyderabad,Telangana,2015-03-14,Net 30
+V082,Balaji Tools Pvt Ltd,MRO,Indore,Madhya Pradesh,2022-05-28,Net 30
+V083,Singh Engineering Pvt Ltd,MRO,Gurugram,Haryana,2018-05-01,Net 30
+V084,Kapoor Industrial Supplies Pvt Ltd,MRO,Indore,Madhya Pradesh,2013-12-15,Net 15
+V085,Shree Hardware Ltd,MRO,Jaipur,Rajasthan,2014-12-10,Net 60
+V086,Singh Industrial Supplies Enterprises,MRO,Mumbai,Maharashtra,2015-10-06,Net 15
+V087,Kapoor Engineering Ltd,MRO,Ludhiana,Punjab,2017-12-04,Net 30
+V088,Metro Industrial Supplies Pvt Ltd,MRO,Jaipur,Rajasthan,2021-05-23,Net 45
+V089,Iyer Industrial Services Industries,MRO,Chennai,Tamil Nadu,2020-03-16,Net 60
+V090,Prime Industrial Supplies Enterprises,MRO,Jaipur,Rajasthan,2020-04-19,Net 30
+V091,Malhotra Hardware LLP,MRO,Ahmedabad,Gujarat,2021-02-17,Advance
+V092,Vardhman Industrial Supplies Pvt Ltd,MRO,Hyderabad,Telangana,2024-08-17,Net 30
+V093,Balaji Hardware Pvt Ltd,MRO,Pune,Maharashtra,2012-07-23,Net 45
+V094,Reddy Industrial Supplies & Co,MRO,Coimbatore,Tamil Nadu,2022-01-27,Net 30
+V095,Ganesh Hardware Pvt Ltd,MRO,Coimbatore,Tamil Nadu,2024-12-29,Net 45
+V096,Balaji Engineering Enterprises,MRO,Kolkata,West Bengal,2015-03-16,Net 45
+V097,Star Hardware Industries,MRO,Noida,Uttar Pradesh,2017-10-15,Unknown
+V098,Laxmi Hardware Enterprises,MRO,Mumbai,Maharashtra,2012-11-30,Net 45
+V099,Gupta Industrial Services Pvt Ltd,MRO,Noida,Uttar Pradesh,2024-02-01,Net 30
+V100,Galaxy Industrial Supplies Industries,MRO,Nagpur,Maharashtra,2014-09-09,Advance
+V101,Supreme Hardware LLP,MRO,Coimbatore,Tamil Nadu,2025-05-07,Net 30
+V102,Global Industrial Services Pvt Ltd,MRO,Surat,Gujarat,2018-04-26,Net 30
+V103,Jain Industrial Services Ltd,MRO,Ghaziabad,Uttar Pradesh,2016-01-04,Net 30
+V104,Gupta Hardware Pvt Ltd,MRO,Jaipur,Rajasthan,2023-01-05,Net 30
+V105,Laxmi Hardware Pvt Ltd,MRO,Ahmedabad,Gujarat,2014-03-14,Net 60
+V106,Agarwal Systems Ltd,IT Hardware,Ludhiana,Punjab,2014-02-17,Net 45
+V107,Eastern Infotech Pvt Ltd,IT Hardware,Surat,Gujarat,2025-04-30,Net 30
+V108,Agarwal IT Solutions Pvt Ltd,IT Hardware,Guwahati,Assam,2024-03-06,Net 30
+V109,Verma Infotech Pvt Ltd,IT Hardware,Hyderabad,Telangana,2021-12-05,Advance
+V110,Kapoor Systems Ltd,IT Hardware,Kolkata,West Bengal,2024-10-31,Net 30
+V111,National IT Solutions Industries,IT Hardware,Ghaziabad,Uttar Pradesh,2021-12-08,Net 45
+V112,Shree IT Solutions Ltd,IT Hardware,Jaipur,Rajasthan,2017-05-22,Net 30
+V113,Apex Infotech Pvt Ltd,IT Hardware,Indore,Madhya Pradesh,2016-05-06,Net 30
+V114,Desai Technologies Pvt Ltd,IT Hardware,Coimbatore,Tamil Nadu,2021-02-14,Net 15
+V115,United Infotech Ltd,IT Hardware,Ahmedabad,Gujarat,2015-10-11,Net 30
+V116,Kulkarni Systems & Co,IT Hardware,Ludhiana,Punjab,2018-11-30,Net 60
+V117,Star Systems Ltd,IT Hardware,Kolkata,West Bengal,2017-05-30,Net 45
+V118,Bharat Infotech Pvt Ltd,IT Hardware,Kochi,Kerala,2013-05-30,Net 30
+V119,Bharat IT Solutions Ltd,IT Hardware,Guwahati,Assam,2012-01-13,Net 30
+V120,Allied Computers & Co,IT Hardware,Chennai,Tamil Nadu,2012-01-22,Net 30
+V121,Singh Chem Industries Pvt Ltd,Chemicals,Ahmedabad,Gujarat,2014-02-24,Net 30
+V122,Modern Specialty Chemicals Industries,Chemicals,Indore,Madhya Pradesh,2013-01-27,Net 30
+V123,Universal Chem Industries Pvt Ltd,Chemicals,Chennai,Tamil Nadu,2013-06-26,Net 30
+V124,Kulkarni Organics LLP,Chemicals,Surat,Gujarat,2021-05-01,Net 15
+V125,Southern Polymers LLP,Chemicals,Ahmedabad,Gujarat,2017-10-20,Net 45
+V126,Krishna Chem Industries Industries,Chemicals,Indore,Madhya Pradesh,2022-01-17,Net 45
+V127,Kulkarni Chem Industries Enterprises,Chemicals,Gurugram,Haryana,2017-03-19,Unknown
+V128,Bansal Specialty Chemicals Pvt Ltd,Chemicals,Surat,Gujarat,2018-09-02,Net 60
+V129,Metro Chemicals Pvt Ltd,Chemicals,Hyderabad,Telangana,2025-05-11,Net 45
+V130,Sunrise Chem Industries Pvt Ltd,Chemicals,Coimbatore,Tamil Nadu,2022-07-18,Net 45
+V131,Patel Chem Industries Enterprises,Chemicals,Nagpur,Maharashtra,2013-07-20,Advance
+V132,Agarwal Organics Pvt Ltd,Chemicals,Mumbai,Maharashtra,2013-06-16,Net 60
+V133,United Chem Industries Ltd,Chemicals,Pune,Maharashtra,2013-11-12,Net 45
+V134,Hindustan Specialty Chemicals Pvt Ltd,Chemicals,Ludhiana,Punjab,2014-05-20,Net 60
+V135,Rao Specialty Chemicals Enterprises,Chemicals,Noida,Uttar Pradesh,2024-09-14,Net 30
+V136,Om Office Solutions LLP,Office Supplies,Kolkata,West Bengal,2018-02-17,Advance
+V137,Vardhman Office Solutions Enterprises,Office Supplies,Mumbai,Maharashtra,2023-04-07,Net 30
+V138,Western Stationers Industries,Office Supplies,Ludhiana,Punjab,2015-12-17,Net 30
+V139,Modern Office Solutions & Co,Office Supplies,Kochi,Kerala,2015-07-19,Net 30
+V140,Shah Stationers Ltd,Office Supplies,Coimbatore,Tamil Nadu,2013-12-01,Net 45
+V141,Om Stationers Industries,Office Supplies,Surat,Gujarat,2022-10-31,Net 15
+V142,Prime Stationers Pvt Ltd,Office Supplies,Jaipur,Rajasthan,2017-09-16,Net 30
+V143,Universal Office Solutions Pvt Ltd,Office Supplies,Ahmedabad,Gujarat,2013-07-20,Net 45
+V144,Pioneer Paper Products Pvt Ltd,Office Supplies,Faridabad,Haryana,2017-12-24,Net 45
+V145,Star Traders Ltd,Office Supplies,Surat,Gujarat,2013-10-14,Unknown
+V146,Bharat Traders & Co,Office Supplies,Ludhiana,Punjab,2014-07-23,Net 45
+V147,Southern Office Solutions Industries,Office Supplies,Pune,Maharashtra,2017-10-05,Net 30
+V148,Vardhman Paper Products Pvt Ltd,Office Supplies,Faridabad,Haryana,2019-03-23,Net 60
+V149,Joshi Office Solutions Pvt Ltd,Office Supplies,Gurugram,Haryana,2024-01-14,Net 45
+V150,Vardhman Stationers LLP,Office Supplies,Nagpur,Maharashtra,2015-02-10,Net 30

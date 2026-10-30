@@ -1,0 +1,54 @@
+table model_results
+	lineageTag: 2e4a4e22-f69e-5d79-8ead-ee0e53bdc683
+
+	column model
+		dataType: string
+		lineageTag: 3e6cfe2a-fb05-559a-b0cf-ca71bb666aa1
+		summarizeBy: none
+		sourceColumn: model
+
+	column roc_auc
+		dataType: double
+		formatString: 0.000
+		lineageTag: 4b9f202e-c5d2-59d4-99c1-45d4344b770c
+		summarizeBy: none
+		sourceColumn: roc_auc
+
+	column pr_auc
+		dataType: double
+		formatString: 0.000
+		lineageTag: 4767fab5-1811-52e3-b26b-65cefe7ccd7b
+		summarizeBy: none
+		sourceColumn: pr_auc
+
+	column late_caught_top20
+		dataType: double
+		formatString: 0.0%
+		lineageTag: 25ac8772-9a37-593b-9b0d-7c383082f52b
+		summarizeBy: none
+		sourceColumn: late_caught_top20
+
+	column precision_top20
+		dataType: double
+		formatString: 0.0%
+		lineageTag: d3fa7d31-2f32-5d37-a295-46c3d2b2569b
+		summarizeBy: none
+		sourceColumn: precision_top20
+
+	column base_late_rate
+		dataType: double
+		formatString: 0.0%
+		lineageTag: feb54e09-7fce-5fab-a187-330c2516adf8
+		summarizeBy: none
+		sourceColumn: base_late_rate
+
+	partition model_results = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(ProjectFolder & "\data\powerbi\model_results.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"model", type text}, {"roc_auc", type number}, {"pr_auc", type number}, {"late_caught_top20", type number}, {"precision_top20", type number}, {"base_late_rate", type number}}, "en-US")
+				in
+				    Typed
+

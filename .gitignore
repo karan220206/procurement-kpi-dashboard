@@ -1,0 +1,23 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Power BI temp files
+dashboard/*.pbix.bak
+
+# CV (personal document, not part of the project repo)
+*Data Analytics.pdf
+
+# Power BI Desktop local files (data cache and per-user settings)
+dashboard/**/.pbi/localSettings.json
+dashboard/**/.pbi/cache.abf
+
+# Personal planning notes (kept local)
+PLAN.md

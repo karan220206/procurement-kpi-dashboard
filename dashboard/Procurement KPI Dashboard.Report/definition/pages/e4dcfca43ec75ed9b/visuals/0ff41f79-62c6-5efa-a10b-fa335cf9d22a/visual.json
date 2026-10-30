@@ -1,0 +1,235 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "0ff41f79-62c6-5efa-a10b-fa335cf9d22a",
+  "position": {
+    "x": 648,
+    "y": 443,
+    "z": 9000,
+    "height": 265,
+    "width": 616,
+    "tabOrder": 9000
+  },
+  "visual": {
+    "visualType": "tableEx",
+    "query": {
+      "queryState": {
+        "Values": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "upcoming_risk"
+                    }
+                  },
+                  "Property": "po_id"
+                }
+              },
+              "queryRef": "upcoming_risk.po_id",
+              "displayName": "PO"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "upcoming_risk"
+                    }
+                  },
+                  "Property": "line_no"
+                }
+              },
+              "queryRef": "upcoming_risk.line_no",
+              "displayName": "Line"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "dim_vendor"
+                    }
+                  },
+                  "Property": "vendor_label"
+                }
+              },
+              "queryRef": "dim_vendor.vendor_label",
+              "displayName": "Vendor"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "upcoming_risk"
+                    }
+                  },
+                  "Property": "promised_date"
+                }
+              },
+              "queryRef": "upcoming_risk.promised_date",
+              "displayName": "Promised"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "upcoming_risk"
+                    }
+                  },
+                  "Property": "line_value"
+                }
+              },
+              "queryRef": "upcoming_risk.line_value",
+              "displayName": "Value (₹)"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "upcoming_risk"
+                    }
+                  },
+                  "Property": "late_probability"
+                }
+              },
+              "queryRef": "upcoming_risk.late_probability",
+              "displayName": "Late probability"
+            },
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "upcoming_risk"
+                    }
+                  },
+                  "Property": "risk_band"
+                }
+              },
+              "queryRef": "upcoming_risk.risk_band",
+              "displayName": "Risk"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Column": {
+                "Expression": {
+                  "SourceRef": {
+                    "Entity": "upcoming_risk"
+                  }
+                },
+                "Property": "late_probability"
+              }
+            },
+            "direction": "Descending"
+          }
+        ]
+      }
+    },
+    "objects": {
+      "grid": [
+        {
+          "properties": {
+            "textSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "9D"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "total": [
+        {
+          "properties": {
+            "totals": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "columnHeaders": [
+        {
+          "properties": {
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#0b0b0b'"
+                    }
+                  }
+                }
+              }
+            },
+            "backColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#f4f3ef'"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "text": {
+              "expr": {
+                "Literal": {
+                  "Value": "'Early warning: open PO lines most likely to arrive late'"
+                }
+              }
+            },
+            "fontColor": {
+              "solid": {
+                "color": {
+                  "expr": {
+                    "Literal": {
+                      "Value": "'#0b0b0b'"
+                    }
+                  }
+                }
+              }
+            },
+            "fontSize": {
+              "expr": {
+                "Literal": {
+                  "Value": "11D"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

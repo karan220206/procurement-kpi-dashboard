@@ -1,0 +1,5 @@
+expression ProjectFolder = "C:\Users\ASUS\Desktop\Karan\Data Science\KPI project" meta [IsParameterQuery = true, Type = "Text", IsParameterQueryRequired = true]
+	lineageTag: 7ee48fc4-52e5-5c0c-a447-36312b548fda
+
+	annotation PBI_ResultType = Text
+

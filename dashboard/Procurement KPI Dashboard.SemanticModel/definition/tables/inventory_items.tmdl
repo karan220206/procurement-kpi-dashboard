@@ -1,0 +1,113 @@
+table inventory_items
+	lineageTag: a2212e31-f3a9-5f4e-9c80-93bd9ef98097
+
+	measure 'Stock Value (₹ cr)' = DIVIDE(SUM(inventory_items[closing_value]), 10000000)
+		formatString: #,0.0
+		lineageTag: cfa27b2a-4245-525a-95b2-62caca72d106
+
+	measure 'Excess Inventory (₹ cr)' = DIVIDE(SUM(inventory_items[excess_value]), 10000000)
+		formatString: #,0.0
+		lineageTag: 19abb185-67c3-5d5f-ad55-be1ae0ff0280
+
+	measure 'Excess Share %' = DIVIDE(SUM(inventory_items[excess_value]), SUM(inventory_items[closing_value]))
+		formatString: 0.0%
+		lineageTag: 939311f0-b944-588a-8842-5b0883756aeb
+
+	measure 'Items Over 6m Cover' = CALCULATE(COUNTROWS(inventory_items), inventory_items[months_of_cover] > 6)
+		formatString: #,0
+		lineageTag: 0b9d1ce1-34f2-50a0-a449-e63e32e11a76
+
+	measure 'Inventory Turnover' = DIVIDE(SUMX(inventory_items, inventory_items[sold_last_year] * inventory_items[standard_price]), SUMX(inventory_items, (inventory_items[prev_year_end_qty] + inventory_items[closing_qty]) / 2 * inventory_items[standard_price]))
+		formatString: 0.00
+		lineageTag: 5719fb56-f625-5903-9838-fe2e8e4adb1c
+
+	measure 'Days on Hand' = DIVIDE(365, [Inventory Turnover])
+		formatString: 0
+		lineageTag: d1e794f5-dc12-5ee3-bab1-b60c79ed0add
+
+	column item_id
+		dataType: string
+		lineageTag: 0b92d82d-55a2-51dd-95e2-b5841764d73b
+		summarizeBy: none
+		sourceColumn: item_id
+
+	column standard_price
+		dataType: double
+		formatString: #,0.00
+		lineageTag: 1deab5c4-6c9a-5902-9cc3-f95d5cba4261
+		summarizeBy: none
+		sourceColumn: standard_price
+
+	column opening_qty
+		dataType: double
+		formatString: #,0
+		lineageTag: 5179c45f-2151-5830-9ef4-ebb6b34283c9
+		summarizeBy: sum
+		sourceColumn: opening_qty
+
+	column prev_year_end_qty
+		dataType: double
+		formatString: #,0
+		lineageTag: 6f9ac2fa-2bc0-5d4e-9126-50622a09765a
+		summarizeBy: sum
+		sourceColumn: prev_year_end_qty
+
+	column closing_qty
+		dataType: double
+		formatString: #,0
+		lineageTag: 4c2e0e49-46f0-5565-a307-7e23823ba377
+		summarizeBy: sum
+		sourceColumn: closing_qty
+
+	column sold_last_year
+		dataType: double
+		formatString: #,0
+		lineageTag: 96c076b2-1c88-5250-abfa-f577effd31c3
+		summarizeBy: sum
+		sourceColumn: sold_last_year
+
+	column avg_monthly_sales_6m
+		dataType: double
+		formatString: #,0.0
+		lineageTag: fdeee192-735b-5a99-8cd1-b1b792aee49b
+		summarizeBy: none
+		sourceColumn: avg_monthly_sales_6m
+
+	column months_of_cover
+		dataType: double
+		formatString: 0.0
+		lineageTag: e8ca1320-b7e0-5445-bb49-64e8b144e36f
+		summarizeBy: none
+		sourceColumn: months_of_cover
+
+	column closing_value
+		dataType: double
+		formatString: #,0
+		lineageTag: 8d2a9a14-3b47-5ab4-bfa1-096740a0059e
+		summarizeBy: sum
+		sourceColumn: closing_value
+
+	column excess_qty
+		dataType: double
+		formatString: #,0
+		lineageTag: 68471950-1106-59f2-a128-a2b88cbed1d3
+		summarizeBy: sum
+		sourceColumn: excess_qty
+
+	column excess_value
+		dataType: double
+		formatString: #,0
+		lineageTag: 64c81a43-0721-583b-95e1-45bc13102d68
+		summarizeBy: sum
+		sourceColumn: excess_value
+
+	partition inventory_items = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(ProjectFolder & "\data\powerbi\inventory_items.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"item_id", type text}, {"standard_price", type number}, {"opening_qty", type number}, {"prev_year_end_qty", type number}, {"closing_qty", type number}, {"sold_last_year", type number}, {"avg_monthly_sales_6m", type number}, {"months_of_cover", type number}, {"closing_value", type number}, {"excess_qty", type number}, {"excess_value", type number}}, "en-US")
+				in
+				    Typed
+

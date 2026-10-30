@@ -1,0 +1,139 @@
+table dim_vendor
+	lineageTag: ad4f1ed7-d585-5ed9-b9e2-4a9ba2fb3d22
+
+	measure 'High-Risk Vendors' = CALCULATE(COUNTROWS(dim_vendor), dim_vendor[risk_tier] = "High")
+		formatString: #,0
+		lineageTag: 0e2cb4d7-5534-51e9-a287-6240dddba136
+
+	measure 'Red-Flag Vendors' = CALCULATE(COUNTROWS(dim_vendor), dim_vendor[red_flags] <> "")
+		formatString: #,0
+		lineageTag: df0dc136-7212-5ee3-8156-b65785b916ac
+
+	measure 'High-Risk Spend Share %' = DIVIDE(CALCULATE([Spend (₹ cr)], dim_vendor[risk_tier] = "High"), [Spend (₹ cr)])
+		formatString: 0.0%
+		lineageTag: 5996fcdb-e841-5741-be40-25fca3a4dd17
+
+	measure 'Avg Risk Score' = AVERAGE(dim_vendor[risk_score])
+		formatString: 0.0
+		lineageTag: cb3893d5-f0e7-5791-9845-10b8d0bdd333
+
+	measure 'Performance Risk' = AVERAGE(dim_vendor[performance_score])
+		formatString: 0.0
+		lineageTag: a9ce0c91-eb9d-5351-a0e7-34880120a18f
+
+	measure Exposure = AVERAGE(dim_vendor[exposure_score])
+		formatString: 0.0
+		lineageTag: 3679be6f-0b43-5a7a-9f5e-8f679c60addb
+
+	column vendor_id
+		dataType: string
+		lineageTag: 12442907-1448-5152-9014-ef108eca1223
+		summarizeBy: none
+		sourceColumn: vendor_id
+
+	column vendor_label
+		dataType: string
+		lineageTag: 8e1d0cc9-f0b1-5d55-aa86-7b649b30270b
+		summarizeBy: none
+		sourceColumn: vendor_label
+
+	column vendor_name
+		dataType: string
+		lineageTag: c9bd13f6-b39a-5642-9fe7-475830c01139
+		summarizeBy: none
+		sourceColumn: vendor_name
+
+	column vendor_category
+		dataType: string
+		lineageTag: 0a5607de-f171-506c-b543-1d30adbfd035
+		summarizeBy: none
+		sourceColumn: vendor_category
+
+	column city
+		dataType: string
+		lineageTag: a5af1e07-d866-577f-bc92-aac7fa47a88c
+		summarizeBy: none
+		sourceColumn: city
+
+	column vendor_state
+		dataType: string
+		lineageTag: 985f57d5-37f6-5a95-9fcd-e2ff31d0aa31
+		summarizeBy: none
+		sourceColumn: vendor_state
+
+	column payment_terms
+		dataType: string
+		lineageTag: a852bbc5-8a3e-5b83-b865-882228865df5
+		summarizeBy: none
+		sourceColumn: payment_terms
+
+	column risk_rank
+		dataType: double
+		formatString: 0
+		lineageTag: 932a94eb-6ecb-58fa-a64b-7e6100c1496c
+		summarizeBy: none
+		sourceColumn: risk_rank
+
+	column risk_score
+		dataType: double
+		formatString: 0.0
+		lineageTag: a147e546-b3b9-57e1-9300-4b4050ab4ac8
+		summarizeBy: none
+		sourceColumn: risk_score
+
+	column risk_tier
+		dataType: string
+		lineageTag: 7fc369c9-78be-5ff1-acdb-bc6762ec33ce
+		summarizeBy: none
+		sourceColumn: risk_tier
+
+	column red_flags
+		dataType: string
+		lineageTag: 125abb4c-665f-548a-9e7e-ce7af35b1f53
+		summarizeBy: none
+		sourceColumn: red_flags
+
+	column main_driver
+		dataType: string
+		lineageTag: cd3fa459-7164-5c78-b691-5e6033a27abb
+		summarizeBy: none
+		sourceColumn: main_driver
+
+	column performance_score
+		dataType: double
+		formatString: 0.0
+		lineageTag: c81329c3-1b70-57d8-aece-2f62d1773448
+		summarizeBy: none
+		sourceColumn: performance_score
+
+	column exposure_score
+		dataType: double
+		formatString: 0.0
+		lineageTag: 4f7e165d-50fb-5b0b-99a7-dfde9e98e8f0
+		summarizeBy: none
+		sourceColumn: exposure_score
+
+	column category_share_pct
+		dataType: double
+		formatString: 0.0
+		lineageTag: 7a715d09-e316-5647-a6b3-9524e32821e2
+		summarizeBy: none
+		sourceColumn: category_share_pct
+
+	column otd_change_pp
+		dataType: double
+		formatString: +0.0;-0.0;0.0
+		lineageTag: 4b99f2e0-17ab-5e2c-978c-bc3e48cf7712
+		summarizeBy: none
+		sourceColumn: otd_change_pp
+
+	partition dim_vendor = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(ProjectFolder & "\data\powerbi\dim_vendor.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"vendor_id", type text}, {"vendor_label", type text}, {"vendor_name", type text}, {"vendor_category", type text}, {"city", type text}, {"vendor_state", type text}, {"payment_terms", type text}, {"risk_rank", type number}, {"risk_score", type number}, {"risk_tier", type text}, {"red_flags", type text}, {"main_driver", type text}, {"performance_score", type number}, {"exposure_score", type number}, {"category_share_pct", type number}, {"otd_change_pp", type number}}, "en-US")
+				in
+				    Typed
+

@@ -1,0 +1,44 @@
+table dim_item
+	lineageTag: d0507587-83ad-511f-8cb7-52d46b7451c0
+
+	column item_id
+		dataType: string
+		lineageTag: f0f39afd-fcb8-542a-b786-c338bbd52261
+		summarizeBy: none
+		sourceColumn: item_id
+
+	column item_name
+		dataType: string
+		lineageTag: e2b0b54c-d6de-5905-84d6-89a7a33c19b5
+		summarizeBy: none
+		sourceColumn: item_name
+
+	column category
+		dataType: string
+		lineageTag: 9c53ba27-f09e-5719-b316-bd167828da1f
+		summarizeBy: none
+		sourceColumn: category
+
+	column unit_of_measure
+		dataType: string
+		lineageTag: 648e5ca3-3961-5d04-a10d-e3d708754fff
+		summarizeBy: none
+		sourceColumn: unit_of_measure
+
+	column standard_price
+		dataType: double
+		formatString: #,0.00
+		lineageTag: 0b6a5f31-2cb6-5090-8174-7bb9b374fe0c
+		summarizeBy: none
+		sourceColumn: standard_price
+
+	partition dim_item = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(ProjectFolder & "\data\powerbi\dim_item.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"item_id", type text}, {"item_name", type text}, {"category", type text}, {"unit_of_measure", type text}, {"standard_price", type number}}, "en-US")
+				in
+				    Typed
+

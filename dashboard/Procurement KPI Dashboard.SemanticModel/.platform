@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "Procurement KPI Dashboard"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "512cbf22-a9a7-57ba-a2cd-5201a5ef03b3"
+  }
+}

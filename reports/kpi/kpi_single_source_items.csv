@@ -1,0 +1,152 @@
+item_id,item_name,category,only_vendor,po_lines,spend_crore
+I0065,CR Coil 6mm,Raw Materials,V017,94,8.900503167
+I0013,CR Coil 50mm,Raw Materials,V025,232,8.698725967
+I0041,MS Channel Std,Raw Materials,V017,48,4.685929508
+I0058,MS Channel 10mm,Raw Materials,V013,34,4.123608955
+I0133,HR Coil 12mm,Raw Materials,V014,52,3.3904697390000003
+I0291,Switchgear Panel 6A,Electrical & Electronics,V070,140,3.376453464
+I0382,PLC Module Single Phase,Electrical & Electronics,V070,66,3.282175143
+I0032,Stainless Steel Sheet 50mm,Raw Materials,V018,20,3.085356725
+I0069,GI Pipe 40mm,Raw Materials,V017,52,2.805707495
+I0079,TMT Bar 10mm,Raw Materials,V008,29,2.780214091
+I0085,MS Plate 8mm,Raw Materials,V017,45,2.7258154510000003
+I0113,Copper Rod 6mm,Raw Materials,V007,17,2.62026119
+I0627,UPS Gen 5,IT Hardware,V106,41,2.464795594
+I0564,Server Rack Basic,IT Hardware,V106,12,2.095083992
+I0086,GI Pipe 8mm,Raw Materials,V028,32,2.009749324
+I0003,MS Plate 6mm,Raw Materials,V017,33,2.007920908
+I0563,SSD Enterprise,IT Hardware,V106,25,1.8877967489999998
+I0006,Aluminium Sheet 40mm,Raw Materials,V017,22,1.798521698
+I0279,LED Panel 5HP,Electrical & Electronics,V061,72,1.579085769
+I0104,Stainless Steel Sheet Std,Raw Materials,V017,25,1.5100369519999999
+I0608,Monitor Enterprise,IT Hardware,V111,17,1.492167762
+I0088,MS Angle 10mm,Raw Materials,V028,23,1.485812871
+I0063,Steel Billet 6mm,Raw Materials,V016,21,1.412436041
+I0092,TMT Bar Std,Raw Materials,V003,13,1.35820626
+I0034,Wire Rod 6mm,Raw Materials,V014,19,1.356559126
+I0378,Cable Tray 32A,Electrical & Electronics,V070,70,1.3488742539999998
+I0625,Laptop Gen 5,IT Hardware,V106,12,1.3207421369999999
+I0114,MS Angle 20mm,Raw Materials,V019,13,1.286299495
+I0573,SSD Max,IT Hardware,V106,24,1.189904942
+I0024,TMT Bar 12mm,Raw Materials,V028,11,1.102039803
+I0030,TMT Bar 8mm,Raw Materials,V030,17,1.086944948
+I0324,Contactor 63A,Electrical & Electronics,V070,35,1.086254727
+I0266,Copper Cable 16A,Electrical & Electronics,V073,51,1.066698975
+I0283,PLC Module 10A,Electrical & Electronics,V061,51,0.986648064
+I0464,Grease Grade 1,MRO,V082,127,0.9514359480000001
+I0106,Stainless Steel Sheet 32mm,Raw Materials,V011,13,0.910386324
+I0155,Label Roll Type D,Packaging,V047,47,0.885730592
+I0692,Acetone 50L Drum,Chemicals,V122,23,0.8848964650000001
+I0347,Sensor IP65,Electrical & Electronics,V070,28,0.8525738150000001
+I0571,Network Switch Gen 4,IT Hardware,V112,11,0.79447402
+I0017,GI Pipe 50mm,Raw Materials,V018,6,0.786981836
+I0035,MS Channel 40mm,Raw Materials,V017,15,0.78497047
+I0167,Stretch Film Large,Packaging,V051,54,0.7564217839999999
+I0537,Bearing Heavy Duty,MRO,V102,95,0.66401767
+I0208,Stretch Film Printed,Packaging,V047,60,0.637728194
+I0724,Pen Box Pack of 5,Office Supplies,V141,162,0.635774893
+I0140,MS Plate 25mm,Raw Materials,V017,8,0.572720819
+I0222,Shrink Wrap Large,Packaging,V044,31,0.566899224
+I0607,Desktop Gen 5,IT Hardware,V114,11,0.5515458980000001
+I0180,Shrink Wrap Medium,Packaging,V042,60,0.533692414
+I0495,Valve Size M,MRO,V100,64,0.525956741
+I0661,Paint Primer IBC Tank,Chemicals,V130,22,0.524088726
+I0484,Grinding Wheel Industrial,MRO,V080,49,0.48298445300000004
+I0595,UPS Max,IT Hardware,V106,15,0.48205944800000006
+I0257,Plastic Crate Type A,Packaging,V034,20,0.47820146399999997
+I0403,Valve Industrial,MRO,V093,27,0.42504738499999994
+I0694,Industrial Solvent 20L Drum,Chemicals,V125,21,0.423759012
+I0293,Contactor 1HP,Electrical & Electronics,V076,10,0.41707982400000004
+I0697,Caustic Soda 200L Drum,Chemicals,V125,23,0.41499775099999997
+I0163,Poly Bag XL,Packaging,V038,13,0.394013167
+I0040,GI Pipe HD,Raw Materials,V003,7,0.392323782
+I0352,LED Panel 16A,Electrical & Electronics,V056,10,0.383271954
+I0273,Copper Cable 63A,Electrical & Electronics,V073,21,0.366129268
+I0499,Grease Type A,MRO,V100,32,0.350556244
+I0242,Poly Bag Type D,Packaging,V049,29,0.341858791
+I0404,Gasket Size L,MRO,V087,25,0.328063993
+I0709,Water Treatment Chemical Lab Grade,Chemicals,V122,60,0.326629348
+I0398,Junction Box 24V DC,Electrical & Electronics,V076,5,0.29667629900000003
+I0623,RAM Module Gen 4,IT Hardware,V107,9,0.287040379
+I0641,Caustic Soda 50kg Bag,Chemicals,V122,14,0.285276182
+I0384,Relay Three Phase,Electrical & Electronics,V067,15,0.27886301
+I0241,Shrink Wrap Plain,Packaging,V031,38,0.27768736
+I0441,Bearing Type A,MRO,V102,23,0.26386364500000004
+I0238,Paper Bag XL,Packaging,V047,38,0.254565745
+I0377,Contactor 16A,Electrical & Electronics,V069,15,0.244445042
+I0405,V-Belt Grade 1,MRO,V086,24,0.23968073199999998
+I0482,Lubricant Bulk Pack,MRO,V093,21,0.234739931
+I0168,Shrink Wrap Small,Packaging,V047,16,0.224205354
+I0773,Whiteboard Marker Pack of 50,Office Supplies,V141,65,0.224145388
+I0231,Corrugated Box Type A,Packaging,V042,5,0.21388735499999997
+I0737,Whiteboard Marker Brand A,Office Supplies,V138,31,0.21293397000000003
+I0211,BOPP Tape Type C,Packaging,V046,14,0.20117924299999998
+I0261,Switchgear Panel 1HP,Electrical & Electronics,V061,5,0.198970964
+I0493,Gasket Size XL,MRO,V102,34,0.18505018
+I0673,Coolant 25kg Bag,Chemicals,V129,8,0.176446387
+I0643,Industrial Solvent Industrial,Chemicals,V133,11,0.173717146
+I0427,Lubricant Std Pack,MRO,V103,33,0.173201707
+I0701,Degreaser 50L Drum,Chemicals,V126,12,0.16999709699999999
+I0716,Coolant 50kg Bag,Chemicals,V126,15,0.16891081200000002
+I0287,Copper Cable IP65,Electrical & Electronics,V053,14,0.164652401
+I0667,Industrial Solvent Lab Grade,Chemicals,V133,8,0.16420344099999998
+I0383,PLC Module 10HP,Electrical & Electronics,V061,10,0.163879349
+I0440,Pump Seal Std Pack,MRO,V091,26,0.15334563799999998
+I0522,Safety Gloves Type A,MRO,V087,20,0.146136345
+I0391,PLC Module 24V DC,Electrical & Electronics,V070,10,0.139852897
+I0282,Sensor Single Phase,Electrical & Electronics,V062,7,0.13315228899999998
+I0466,Lubricant Grade 2,MRO,V102,11,0.129285939
+I0174,Label Roll Plain,Packaging,V047,18,0.125080647
+I0296,Transformer 63A,Electrical & Electronics,V077,4,0.12471434599999999
+I0373,Contactor 5HP,Electrical & Electronics,V073,4,0.120789602
+I0192,Corrugated Box Small,Packaging,V049,16,0.11764069099999999
+I0480,Hydraulic Oil Grade 2,MRO,V102,17,0.114765044
+I0247,Wooden Pallet Printed,Packaging,V032,32,0.11307213700000002
+I0215,Paper Bag Small,Packaging,V039,11,0.10970188500000001
+I0374,Relay 5HP,Electrical & Electronics,V061,6,0.10969313300000001
+I0145,Bubble Wrap Type C,Packaging,V045,5,0.10717656599999999
+I0272,Junction Box 10A,Electrical & Electronics,V057,7,0.10468412199999999
+I0728,Desk Organiser Pack of 50,Office Supplies,V142,31,0.10309282
+I0769,File Folder Brand B,Office Supplies,V143,21,0.102895344
+I0540,Welding Rod Size M,MRO,V087,9,0.097745549
+I0771,Printer Toner Premium,Office Supplies,V141,17,0.093069393
+I0781,Envelope Brand A,Office Supplies,V141,32,0.090882699
+I0172,Corrugated Box Type D,Packaging,V037,11,0.0894493
+I0415,Bearing Bulk Pack,MRO,V102,14,0.087876148
+I0369,PLC Module 5HP,Electrical & Electronics,V061,3,0.06751494599999999
+I0513,Grinding Wheel Type B,MRO,V093,9,0.067072011
+I0249,BOPP Tape Type A,Packaging,V034,10,0.066857518
+I0751,Printer Toner Std,Office Supplies,V136,13,0.063385637
+I0463,Welding Rod Industrial,MRO,V102,8,0.062961165
+I0544,Cutting Disc Size S,MRO,V082,10,0.058314737
+I0076,MS Angle 6mm,Raw Materials,V029,2,0.055886437
+I0790,Pen Box Std,Office Supplies,V142,7,0.054212637
+I0715,Water Treatment Chemical 25kg Bag,Chemicals,V125,6,0.049994043
+I0755,Envelope Std,Office Supplies,V150,12,0.048149439
+I0557,Safety Helmet Grade 1,MRO,V079,4,0.046917182
+I0727,Notebook Std,Office Supplies,V141,23,0.046780609
+I0435,Pump Seal Industrial,MRO,V104,9,0.045603397
+I0200,Strapping Roll Small,Packaging,V045,5,0.044067926
+I0526,Cutting Disc Type A,MRO,V087,8,0.040921879
+I0348,Cable Tray 10HP,Electrical & Electronics,V061,3,0.037710270000000004
+I0546,Safety Gloves Bulk Pack,MRO,V102,7,0.036150461
+I0223,BOPP Tape Small,Packaging,V039,7,0.035706578999999995
+I0545,Cutting Disc Heavy Duty,MRO,V096,7,0.033468422
+I0795,Pen Box Brand A,Office Supplies,V141,3,0.030716195
+I0529,Valve Size S,MRO,V087,2,0.03036535
+I0753,Notebook Brand B,Office Supplies,V141,6,0.028533256
+I0436,Valve Type A,MRO,V103,5,0.028375171
+I0456,Hydraulic Oil Size L,MRO,V104,4,0.025362634
+I0402,Valve Grade 2,MRO,V102,3,0.022317277
+I0759,Envelope Pack of 50,Office Supplies,V145,7,0.020503271
+I0783,Stapler Brand A,Office Supplies,V141,5,0.018325644
+I0221,Stretch Film Type C,Packaging,V042,4,0.016710894
+I0729,Envelope Brand B,Office Supplies,V138,2,0.015700704
+I0760,A4 Paper Pack of 10,Office Supplies,V143,8,0.014648765
+I0503,Safety Helmet Size XL,MRO,V085,3,0.011464789
+I0710,Acetone Technical Grade,Chemicals,V134,1,0.01110248
+I0764,Notebook Pack of 10,Office Supplies,V139,3,0.010031945
+I0777,Stapler Brand B,Office Supplies,V139,1,0.009981351
+I0796,Whiteboard Marker Economy,Office Supplies,V141,4,0.006322393
+I0732,Whiteboard Marker Pack of 5,Office Supplies,V147,2,0.003773242
+I0179,Wooden Pallet Large,Packaging,V038,1,0.001871532

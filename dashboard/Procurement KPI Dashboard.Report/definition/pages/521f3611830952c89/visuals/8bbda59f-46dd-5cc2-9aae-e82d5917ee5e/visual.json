@@ -1,0 +1,52 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "8bbda59f-46dd-5cc2-9aae-e82d5917ee5e",
+  "position": {
+    "x": 16,
+    "y": 520,
+    "z": 3000,
+    "height": 90,
+    "width": 1248,
+    "tabOrder": 3000
+  },
+  "visual": {
+    "visualType": "textbox",
+    "query": {
+      "queryState": {}
+    },
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "How to read this",
+                    "textStyle": {
+                      "fontWeight": "bold",
+                      "fontSize": "16pt",
+                      "color": "#0b0b0b"
+                    }
+                  }
+                ]
+              },
+              {
+                "textRuns": [
+                  {
+                    "value": "Best achievable ROC-AUC on this data is 0.690 (true probabilities); the logistic regression reaches 0.674, i.e. 92% of the achievable gain. The riskiest 10% of lines are late 51% of the time vs 9% for the safest 10%.",
+                    "textStyle": {
+                      "fontSize": "9pt",
+                      "color": "#52514e"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}

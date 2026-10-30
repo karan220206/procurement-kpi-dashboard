@@ -1,0 +1,298 @@
+table fact_po_lines
+	lineageTag: d408c56e-45df-541f-853b-419f0669209e
+
+	measure 'Spend (₹ cr)' = DIVIDE(SUM(fact_po_lines[line_value]), 10000000)
+		formatString: #,0.0
+		displayFolder: Spend
+		lineageTag: 006d9827-25df-5fab-8603-20c084a1cef4
+
+	measure 'PO Lines' = COUNTROWS(fact_po_lines)
+		formatString: #,0
+		displayFolder: Spend
+		lineageTag: 8651fcc3-9057-511f-82f0-0e316466aa4d
+
+	measure 'Lines Due' = CALCULATE(COUNTROWS(fact_po_lines), fact_po_lines[is_due] = 1)
+		formatString: #,0
+		displayFolder: Delivery
+		lineageTag: 0b057e3b-87ae-5f18-acd0-630030356fdb
+
+	measure 'OTD %' = DIVIDE(CALCULATE(COUNTROWS(fact_po_lines), fact_po_lines[is_due] = 1, fact_po_lines[is_on_time] = 1), [Lines Due])
+		formatString: 0.0%
+		displayFolder: Delivery
+		lineageTag: 7aeda2fb-68b2-5748-8bd3-5e1cf929c585
+
+	measure 'OTIF %' = DIVIDE(CALCULATE(COUNTROWS(fact_po_lines), fact_po_lines[is_due] = 1, fact_po_lines[is_otif] = 1), [Lines Due])
+		formatString: 0.0%
+		displayFolder: Delivery
+		lineageTag: 39172dd3-b17b-58b3-a517-e8290da89ecc
+
+	measure 'Fill Rate %' = DIVIDE(SUM(fact_po_lines[qty_filled_due]), SUM(fact_po_lines[qty_due]))
+		formatString: 0.0%
+		displayFolder: Delivery
+		lineageTag: 0b7066e8-9124-55dd-934a-9b3d8aaf6533
+
+	measure 'Avg Delay (days)' = CALCULATE(AVERAGE(fact_po_lines[delay_days]), fact_po_lines[delay_days] > 0)
+		formatString: 0.0
+		displayFolder: Delivery
+		lineageTag: 491d9374-5859-5f43-8cca-1732d3987bc6
+
+	measure 'Avg Lead Time (days)' = AVERAGE(fact_po_lines[lead_time_days])
+		formatString: 0.0
+		displayFolder: Delivery
+		lineageTag: 85db7b66-b4d1-563c-a7c0-fb29d89872e5
+
+	measure 'Overdue Open Lines' = CALCULATE(COUNTROWS(fact_po_lines), fact_po_lines[is_due] = 1, fact_po_lines[line_status] = "Open")
+		formatString: #,0
+		displayFolder: Delivery
+		lineageTag: 16469f4e-aa72-5a38-bb98-d52b8d9f01b0
+
+	measure 'Rejection Rate %' = DIVIDE(SUM(fact_po_lines[qty_rejected]), SUM(fact_po_lines[qty_inspected]))
+		formatString: 0.00%
+		displayFolder: Quality
+		lineageTag: 6ca4dcff-2bae-571a-8e58-45ef55ca42e7
+
+	measure 'Receipts with Rejections %' = DIVIDE(SUM(fact_po_lines[receipts_with_rejection]), SUM(fact_po_lines[receipts_inspected]))
+		formatString: 0.0%
+		displayFolder: Quality
+		lineageTag: 334869c8-3394-50b6-9c2d-c0703996ff64
+
+	measure 'Urgent Orders %' = DIVIDE(CALCULATE(COUNTROWS(fact_po_lines), fact_po_lines[order_type] = "Urgent"), [PO Lines])
+		formatString: 0.0%
+		displayFolder: Buying
+		lineageTag: 081684a7-693a-57f0-a3a7-c74369fe967d
+
+	measure 'Bulk Orders %' = DIVIDE(CALCULATE(COUNTROWS(fact_po_lines), fact_po_lines[order_type] = "Bulk"), [PO Lines])
+		formatString: 0.0%
+		displayFolder: Buying
+		lineageTag: e5ebc3fe-762e-533a-a10f-4f36a6d52294
+
+	measure 'Bulk Savings (₹ cr)' = DIVIDE(SUM(fact_po_lines[bulk_saving]), 10000000)
+		formatString: #,0.0
+		displayFolder: Buying
+		lineageTag: 96577baf-cb1a-5a4b-a981-c9099b0e19ae
+
+	measure 'Urgent Premium (₹ cr)' = DIVIDE(SUM(fact_po_lines[urgent_premium]), 10000000)
+		formatString: #,0.00
+		displayFolder: Buying
+		lineageTag: d78e968f-c88f-5714-b469-5749e8bcbc22
+
+	measure 'PPV vs Standard %' = DIVIDE(SUMX(fact_po_lines, (fact_po_lines[unit_price] - fact_po_lines[standard_price]) * fact_po_lines[quantity]), SUMX(fact_po_lines, fact_po_lines[standard_price] * fact_po_lines[quantity]))
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: Buying
+		lineageTag: 2a5dbfd3-8934-5f5e-897d-f2cd28458a58
+
+	measure 'Top Vendor Share %' = DIVIDE(MAXX(VALUES(fact_po_lines[vendor_id]), CALCULATE(SUM(fact_po_lines[line_value]))), SUM(fact_po_lines[line_value]))
+		formatString: 0.0%
+		displayFolder: Dependency
+		lineageTag: a279bd8b-f419-53f4-af29-16388b7a2aac
+
+	measure 'Top 5 Vendor Share %' = DIVIDE(SUMX(TOPN(5, VALUES(fact_po_lines[vendor_id]), CALCULATE(SUM(fact_po_lines[line_value]))), CALCULATE(SUM(fact_po_lines[line_value]))), SUM(fact_po_lines[line_value]))
+		formatString: 0.0%
+		displayFolder: Dependency
+		lineageTag: 7151fd78-442b-5131-9b9b-94608ee171b8
+
+	measure 'Vendor HHI' = VAR total = SUM(fact_po_lines[line_value]) RETURN SUMX(VALUES(fact_po_lines[vendor_id]), DIVIDE(CALCULATE(SUM(fact_po_lines[line_value])), total) ^ 2) * 10000
+		formatString: #,0
+		displayFolder: Dependency
+		lineageTag: bf9e3fe5-a541-53b8-9a2a-1f92b85d36eb
+
+	measure 'Single-Source Items %' = VAR bought = VALUES(fact_po_lines[item_id]) RETURN DIVIDE(COUNTROWS(FILTER(bought, CALCULATE(DISTINCTCOUNT(fact_po_lines[vendor_id])) = 1)), COUNTROWS(bought))
+		formatString: 0.0%
+		displayFolder: Dependency
+		lineageTag: ea98828c-22f9-5e43-b9c9-e2e98bd45ba0
+
+	column po_id
+		dataType: string
+		lineageTag: 3d47d11e-9f30-5e84-b67f-522a733637e8
+		summarizeBy: none
+		sourceColumn: po_id
+
+	column line_no
+		dataType: int64
+		lineageTag: 64bf7225-d0cc-5534-8a42-158c14909fe5
+		summarizeBy: none
+		sourceColumn: line_no
+
+	column order_date
+		dataType: dateTime
+		formatString: dd-mmm-yyyy
+		lineageTag: 56162b2c-4459-5d87-bbf5-8bf329f0629a
+		summarizeBy: none
+		sourceColumn: order_date
+
+	column promised_date
+		dataType: dateTime
+		formatString: dd-mmm-yyyy
+		lineageTag: 1cc794d7-88dc-5132-b437-4ee65df29a10
+		summarizeBy: none
+		sourceColumn: promised_date
+
+	column order_type
+		dataType: string
+		lineageTag: 8447340c-51a9-514d-aa5d-55eb97a76be0
+		summarizeBy: none
+		sourceColumn: order_type
+
+	column buyer_id
+		dataType: string
+		lineageTag: dbc92850-3be3-5722-b65d-772eacc75135
+		summarizeBy: none
+		sourceColumn: buyer_id
+
+	column vendor_id
+		dataType: string
+		lineageTag: 954609f1-f337-5149-af2f-c46128c0801d
+		summarizeBy: none
+		sourceColumn: vendor_id
+
+	column item_id
+		dataType: string
+		lineageTag: 5bab36aa-b3cf-50c5-b079-bda2903e3683
+		summarizeBy: none
+		sourceColumn: item_id
+
+	column quantity
+		dataType: int64
+		formatString: #,0
+		lineageTag: 552c113a-6073-52a7-8553-f9af22d7f88e
+		summarizeBy: sum
+		sourceColumn: quantity
+
+	column unit_price
+		dataType: double
+		formatString: #,0.00
+		lineageTag: c827401b-4e73-50df-8f79-f78d3b90a5de
+		summarizeBy: none
+		sourceColumn: unit_price
+
+	column standard_price
+		dataType: double
+		formatString: #,0.00
+		lineageTag: ceb32ed5-2a94-5679-9aa3-13356a75c0fe
+		summarizeBy: none
+		sourceColumn: standard_price
+
+	column line_value
+		dataType: double
+		formatString: #,0
+		lineageTag: 596bab7f-a4d5-5c3c-955a-5a06b35798fc
+		summarizeBy: sum
+		sourceColumn: line_value
+
+	column qty_received
+		dataType: double
+		formatString: #,0
+		lineageTag: 7dd2dfcb-37db-50b0-b7fd-31897d5c7a18
+		summarizeBy: sum
+		sourceColumn: qty_received
+
+	column qty_rejected
+		dataType: double
+		formatString: #,0
+		lineageTag: 7a91874b-6df6-5020-82ff-47c0d1ec9de2
+		summarizeBy: sum
+		sourceColumn: qty_rejected
+
+	column qty_inspected
+		dataType: double
+		formatString: #,0
+		lineageTag: 3f7f078d-a31d-5664-ad19-e395f9420e32
+		summarizeBy: sum
+		sourceColumn: qty_inspected
+
+	column receipts_with_rejection
+		dataType: double
+		formatString: #,0
+		lineageTag: cc246380-b422-5eec-8210-a71d8e02ff73
+		summarizeBy: sum
+		sourceColumn: receipts_with_rejection
+
+	column receipts_inspected
+		dataType: double
+		formatString: #,0
+		lineageTag: 6be482f2-d1bb-5fa0-a438-8565e93d8c03
+		summarizeBy: sum
+		sourceColumn: receipts_inspected
+
+	column lead_time_days
+		dataType: double
+		formatString: 0
+		lineageTag: aa351003-af89-5274-b9e8-b963f5c24b8a
+		summarizeBy: none
+		sourceColumn: lead_time_days
+
+	column delay_days
+		dataType: double
+		formatString: 0
+		lineageTag: 2f8cda7d-da9f-5c76-93be-71f18646ed8e
+		summarizeBy: none
+		sourceColumn: delay_days
+
+	column is_due
+		dataType: int64
+		lineageTag: d3dc4066-c9c9-5380-a94f-d0b8ab6bf7eb
+		summarizeBy: none
+		sourceColumn: is_due
+
+	column is_on_time
+		dataType: int64
+		lineageTag: bd360589-5bb3-50c1-b876-c082b5162815
+		summarizeBy: none
+		sourceColumn: is_on_time
+
+	column is_otif
+		dataType: int64
+		lineageTag: 075e4ef1-5620-524d-acd9-8e1ac11444f5
+		summarizeBy: none
+		sourceColumn: is_otif
+
+	column is_monsoon_month
+		dataType: int64
+		lineageTag: c92117e7-0563-56df-a59c-bf96374941d2
+		summarizeBy: none
+		sourceColumn: is_monsoon_month
+
+	column line_status
+		dataType: string
+		lineageTag: 95f8fdb2-2557-52ec-b303-90f89ae71918
+		summarizeBy: none
+		sourceColumn: line_status
+
+	column qty_due
+		dataType: double
+		formatString: #,0
+		lineageTag: 99fa4ab6-98e1-5010-820e-49a46822e168
+		summarizeBy: sum
+		sourceColumn: qty_due
+
+	column qty_filled_due
+		dataType: double
+		formatString: #,0
+		lineageTag: cd38d214-7eb4-5b9a-800d-c077845e74dd
+		summarizeBy: sum
+		sourceColumn: qty_filled_due
+
+	column bulk_saving
+		dataType: double
+		formatString: #,0
+		lineageTag: 6fc97d06-1fc9-53b5-ad71-6b57bfb88b1d
+		summarizeBy: sum
+		sourceColumn: bulk_saving
+
+	column urgent_premium
+		dataType: double
+		formatString: #,0
+		lineageTag: 164387ab-484d-5b83-805d-49fc07720ed4
+		summarizeBy: sum
+		sourceColumn: urgent_premium
+
+	partition fact_po_lines = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(ProjectFolder & "\data\powerbi\fact_po_lines.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"po_id", type text}, {"line_no", Int64.Type}, {"order_date", type date}, {"promised_date", type date}, {"order_type", type text}, {"buyer_id", type text}, {"vendor_id", type text}, {"item_id", type text}, {"quantity", Int64.Type}, {"unit_price", type number}, {"standard_price", type number}, {"line_value", type number}, {"qty_received", type number}, {"qty_rejected", type number}, {"qty_inspected", type number}, {"receipts_with_rejection", type number}, {"receipts_inspected", type number}, {"lead_time_days", type number}, {"delay_days", type number}, {"is_due", Int64.Type}, {"is_on_time", Int64.Type}, {"is_otif", Int64.Type}, {"is_monsoon_month", Int64.Type}, {"line_status", type text}, {"qty_due", type number}, {"qty_filled_due", type number}, {"bulk_saving", type number}, {"urgent_premium", type number}}, "en-US")
+				in
+				    Typed
+

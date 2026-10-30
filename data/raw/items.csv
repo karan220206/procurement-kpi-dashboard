@@ -1,0 +1,801 @@
+item_id,item_name,category,unit_of_measure,standard_price
+I0001,MS Channel 20mm,Raw Materials,tonne,64104.75
+I0002,Aluminium Sheet 12mm,Raw Materials,kg,287.63
+I0003,MS Plate 6mm,Raw Materials,tonne,"₹62,689.17"
+I0004,Steel Billet 12mm,Raw Materials,tonne,47226.63
+I0005,MS Angle 16mm,Raw Materials,tonne,"₹78,371.48"
+I0006,Aluminium Sheet 40mm,Raw Materials,kg,303.63
+I0007,Stainless Steel Sheet 12mm,Raw Materials,kg,296.55
+I0008,GI Pipe 12mm,Raw Materials,metre,414.14
+I0009,MS Plate Std,Raw Materials,tonne,48982.56
+I0010,Wire Rod 20mm,Raw Materials,tonne,51180.91
+I0011,HR Coil 16mm,Raw Materials,,"₹58,172.20"
+I0012,Copper Rod HD,Raw Materials,kg,₹680.85
+I0013,CR Coil 50mm,Raw Materials,tonne,73286.99
+I0014,HR Coil 25mm,Raw Materials,tonne,47147.90
+I0015,Stainless Steel Sheet 16mm,Raw Materials,kg,₹177.06
+I0016,Stainless Steel Sheet 25mm,Raw Materials,kg,₹272.48
+I0017,GI Pipe 50mm,Raw Materials,metre,₹282.49
+I0018,Aluminium Sheet 16mm,Raw Materials,kg,271.60
+I0019,Wire Rod Std,Raw Materials,tonne,"₹62,350.29"
+I0020,GI Pipe 6mm,Raw Materials,metre,282.92
+I0021,TMT Bar 25mm,Raw Materials,tonne,47327.68
+I0022,MS Channel 32mm,Raw Materials,tonne,"₹70,956.84"
+I0023,Copper Rod 12mm,Raw Materials,kg,914.81
+I0024,TMT Bar 12mm,RAW MATERIALS,tonne,80107.11
+I0025,TMT Bar 40mm,Raw Materials,tonne,56595.23
+I0026,Steel Billet 50mm,Raw Materials,tonne,37135.51
+I0027,Steel Billet 25mm,Raw Materials,tonne,47714.58
+I0028,MS Channel 8mm,Raw Materials,tonne,65378.68
+I0029,MS Angle HD,Raw Materials,tonne,89126.07
+I0030,TMT Bar 8mm,Raw Materials,tonne,56706.84
+I0031,HR Coil 6mm,Raw Materials,tonne,"₹38,819.20"
+I0032,Stainless Steel Sheet 50mm,Raw Materials ,kg,161.60
+I0033,TMT Bar HD,Raw Materials,tonne,"₹56,787.32"
+I0034,Wire Rod 6mm,Raw Materials,tonne,"₹38,691.93"
+I0035,MS Channel 40mm,Raw Materials,tonne,70007.68
+I0036,Wire Rod 50mm,Raw Materials,tonne,49526.05
+I0037,CR Coil 25mm,Raw Materials,tonne,59713.97
+I0038,TMT Bar 16mm,Raw Materials,tonne,"₹44,160.52"
+I0039,Steel Billet Std,Raw Materials,tonne,20920.25
+I0040,GI Pipe HD,Raw Materials,metre,274.02
+I0041,MS Channel Std,Raw Materials,tonne,65373.27
+I0042,Copper Rod 32mm,Raw Materials,kg,"₹1,449.05"
+I0043,Stainless Steel Sheet 20mm,Raw Materials,kg,319.26
+I0044,Steel Billet 8mm,Raw Materials,tonne,"₹56,746.73"
+I0045,Aluminium Sheet 8mm,Raw Materials,kg,259.37
+I0046,GI Pipe 25mm,Raw Materials,metre,493.53
+I0047,CR Coil 32mm,Raw Materials ,tonne,86998.60
+I0048,HR Coil Std,Raw Materials,tonne,55774.57
+I0049,HR Coil 32mm,Raw Materials,tonne,60860.16
+I0050,Stainless Steel Sheet 10mm,Raw Materials,kg,₹328.68
+I0051,Copper Rod 10mm,Raw Materials,kg,₹933.07
+I0052,CR Coil 16mm,Raw Materials,tonne,"₹80,887.01"
+I0053,MS Angle 25mm,Raw Materials,tonne,59498.06
+I0054,Steel Billet 40mm,Raw Materials,tonne,"₹58,500.61"
+I0055,Wire Rod HD,Raw Materials,tonne,49605.28
+I0056,Steel Billet 32mm,Raw Materials,tonne,"₹37,853.37"
+I0057,CR Coil 12mm,Raw Materials,tonne,62416.05
+I0058,MS Channel 10mm,Raw Materials,tonne,63332.22
+I0059,CR Coil 10mm,Raw Materials,tonne,93282.67
+I0060,CR Coil 8mm,raw materials,tonne,"₹118,642.04"
+I0061,MS Plate 16mm,Raw Materials,tonne,75517.27
+I0062,Copper Rod 25mm,Raw Materials,kg,750.42
+I0063,Steel Billet 6mm,Raw Materials,tonne,45482.16
+I0064,MS Channel 25mm,Raw Materials,tonne,"₹41,581.60"
+I0065,CR Coil 6mm,Raw Materials,,42137.29
+I0066,Aluminium Sheet Std,Raw Materials,kg,171.50
+I0067,Steel Billet 20mm,Raw Materials ,tonne,33673.21
+I0068,HR Coil 50mm,Raw Materials,tonne,49196.17
+I0069,GI Pipe 40mm,Raw Materials,metre,362.41
+I0070,Wire Rod 40mm,Raw Materials ,tonne,45481.93
+I0071,HR Coil HD,Raw Materials,tonne,72589.89
+I0072,MS Angle Std,Raw Materials,tonne,"₹69,993.57"
+I0073,Wire Rod 16mm,Raw Materials,tonne,76609.14
+I0074,Aluminium Sheet HD,Raw Materials,kg,₹242.40
+I0075,CR Coil HD,Raw Materials,tonne,81453.31
+I0076,MS Angle 6mm,Raw Materials,tonne,47221.14
+I0077,MS Angle 8mm,Raw Materials,tonne,76955.66
+I0078,GI Pipe 20mm,Raw Materials,metre,352.96
+I0079,TMT Bar 10mm,Raw Materials,tonne,52795.03
+I0080,Aluminium Sheet 50mm,raw materials,kg,244.94
+I0081,GI Pipe 32mm,Raw Materials,metre,460.19
+I0082,MS Angle 32mm,Raw Materials,tonne,37158.60
+I0083,MS Plate HD,Raw Materials,tonne,"₹46,058.59"
+I0084,Aluminium Sheet 32mm,Raw Materials,kg,₹389.71
+I0085,MS Plate 8mm,Raw Materials,tonne,55635.76
+I0086,GI Pipe 8mm,Raw Materials,metre,454.12
+I0087,TMT Bar 32mm,Raw Materials,tonne,54077.91
+I0088,MS Angle 10mm,Raw Materials,tonne,59465.03
+I0089,MS Angle 12mm,Raw Materials ,tonne,"₹84,671.46"
+I0090,Steel Billet HD,Raw Materials,tonne,55173.98
+I0091,GI Pipe 16mm,Raw Materials,metre,782.04
+I0092,TMT Bar Std,Raw Materials,tonne,"₹78,918.19"
+I0093,TMT Bar 6mm,Raw Materials,tonne,"₹78,639.51"
+I0094,MS Channel 6mm,Raw Materials,tonne,"₹76,492.20"
+I0095,Aluminium Sheet 10mm,Raw Materials,kg,295.55
+I0096,MS Channel HD,Raw Materials,tonne,61167.72
+I0097,MS Plate 50mm,Raw Materials,tonne,"₹58,751.89"
+I0098,Copper Rod 40mm,Raw Materials,kg,1316.28
+I0099,MS Plate 20mm,Raw Materials,tonne,54143.53
+I0100,HR Coil 20mm,Raw Materials,tonne,57037.67
+I0101,Stainless Steel Sheet 40mm,Raw Materials,kg,160.00
+I0102,MS Plate 12mm,Raw Materials,tonne,"₹68,653.11"
+I0103,Wire Rod 32mm,Raw Materials,tonne,46037.92
+I0104,Stainless Steel Sheet Std,Raw Materials,kg,157.73
+I0105,HR Coil 8mm,Raw Materials,tonne,"₹60,618.04"
+I0106,Stainless Steel Sheet 32mm,Raw Materials,kg,343.57
+I0107,Wire Rod 10mm,Raw Materials,,72477.99
+I0108,Copper Rod 20mm,Raw Materials,kg,862.33
+I0109,Copper Rod 50mm,Raw Materials,kg,1447.44
+I0110,Stainless Steel Sheet 8mm,Raw Materials,kg,264.00
+I0111,CR Coil 40mm,Raw Materials,tonne,"₹88,785.23"
+I0112,MS Plate 40mm,raw materials,tonne,69559.96
+I0113,Copper Rod 6mm,Raw Materials ,kg,885.95
+I0114,MS Angle 20mm,Raw Materials,tonne,67477.94
+I0115,Wire Rod 12mm,Raw Materials,,70860.61
+I0116,Wire Rod 8mm,Raw Materials,tonne,45390.28
+I0117,Steel Billet 10mm,Raw Materials,tonne,60424.89
+I0118,MS Channel 12mm,Raw Materials,tonne,75013.42
+I0119,Stainless Steel Sheet HD,Raw Materials,kg,₹206.42
+I0120,MS Channel 50mm,Raw Materials,tonne,60884.71
+I0121,GI Pipe Std,RAW MATERIALS,metre,379.22
+I0122,GI Pipe 10mm,RAW MATERIALS,metre,₹391.99
+I0123,MS Angle 50mm,Raw Materials,tonne,48918.04
+I0124,CR Coil Std,RAW MATERIALS,tonne,"₹62,129.04"
+I0125,MS Plate 32mm,Raw Materials,tonne,"₹57,101.59"
+I0126,Copper Rod 8mm,Raw Materials,kg,950.00
+I0127,Aluminium Sheet 25mm,Raw Materials,kg,₹402.04
+I0128,Copper Rod 16mm,Raw Materials,kg,₹881.92
+I0129,CR Coil 20mm,Raw Materials,tonne,86902.11
+I0130,Steel Billet 16mm,Raw Materials,tonne,48120.25
+I0131,Stainless Steel Sheet 6mm,Raw Materials,kg,186.52
+I0132,Aluminium Sheet 6mm,Raw Materials,kg,₹251.93
+I0133,HR Coil 12mm,Raw Materials,tonne,46683.81
+I0134,TMT Bar 50mm,Raw Materials,tonne,65479.86
+I0135,MS Angle 40mm,Raw Materials,tonne,38512.81
+I0136,MS Channel 16mm,Raw Materials,tonne,78240.12
+I0137,Copper Rod Std,Raw Materials,kg,528.58
+I0138,TMT Bar 20mm,Raw Materials,tonne,44810.16
+I0139,HR Coil 10mm,Raw Materials,tonne,69819.98
+I0140,MS Plate 25mm,Raw Materials,tonne,49980.79
+I0141,Corrugated Box XL,Packaging,piece,30.61
+I0142,Stretch Film XL,Packaging,roll,₹631.38
+I0143,Stretch Film Medium,Packaging,roll,"₹1,212.52"
+I0144,Poly Bag Plain,Packaging,piece,4.52
+I0145,Bubble Wrap Type C,Packaging,roll,1213.76
+I0146,Bubble Wrap Medium,Packaging,,"₹1,040.54"
+I0147,Paper Bag Plain,Packaging,piece,₹6.94
+I0148,Corrugated Box Printed,Packaging,piece,₹43.29
+I0149,Wooden Pallet Type B,Packaging,piece,773.55
+I0150,Poly Bag Large,Packaging,piece,₹3.67
+I0151,BOPP Tape Type D,Packaging,roll,₹118.18
+I0152,Foam Sheet Type B,Packaging,piece,175.88
+I0153,Poly Bag Type B,Packaging,piece,3.38
+I0154,Plastic Crate Plain,Packaging,piece,273.04
+I0155,Label Roll Type D,Packaging,roll,₹377.79
+I0156,Foam Sheet Type D,Packaging,piece,119.94
+I0157,Shrink Wrap Type C,Packaging,roll,1104.30
+I0158,Foam Sheet XL,Packaging,piece,101.67
+I0159,Bubble Wrap Printed,Packaging,roll,917.86
+I0160,Wooden Pallet Small,Packaging,piece,668.37
+I0161,Corrugated Box Large,PACKAGING,,59.88
+I0162,Paper Bag Type D,Packaging,piece,₹7.09
+I0163,Poly Bag XL,Packaging,piece,₹4.37
+I0164,Shrink Wrap Type A,Packaging,roll,1507.36
+I0165,Label Roll XL,packaging,roll,297.92
+I0166,Poly Bag Medium,Packaging,piece,4.29
+I0167,Stretch Film Large,Packaging,roll,807.86
+I0168,Shrink Wrap Small,packaging,roll,₹771.50
+I0169,Shrink Wrap Type D,Packaging,roll,1646.43
+I0170,BOPP Tape Large,Packaging,,58.21
+I0171,Corrugated Box Medium,Packaging,piece,60.28
+I0172,Corrugated Box Type D,Packaging,piece,₹26.43
+I0173,Bubble Wrap Small,Packaging,roll,942.45
+I0174,Label Roll Plain,Packaging,roll,377.68
+I0175,Stretch Film Plain,Packaging,roll,548.16
+I0176,Foam Sheet Medium,packaging,piece,₹118.41
+I0177,Stretch Film Type B,Packaging,roll,703.78
+I0178,Paper Bag Type B,Packaging,piece,7.75
+I0179,Wooden Pallet Large,Packaging,piece,"₹1,397.96"
+I0180,Shrink Wrap Medium,Packaging,roll,1073.10
+I0181,Wooden Pallet Medium,Packaging,piece,1115.04
+I0182,Poly Bag Type C,Packaging,piece,3.54
+I0183,Poly Bag Type A,Packaging,piece,4.91
+I0184,Plastic Crate Small,Packaging,piece,258.07
+I0185,Foam Sheet Plain,Packaging,piece,156.42
+I0186,Corrugated Box Plain,packaging,piece,41.20
+I0187,Foam Sheet Printed,Packaging,piece,₹104.15
+I0188,Bubble Wrap Large,Packaging,roll,539.81
+I0189,Label Roll Small,Packaging,roll,₹289.28
+I0190,Foam Sheet Type A,Packaging,piece,₹85.45
+I0191,Label Roll Type C,Packaging,roll,403.79
+I0192,Corrugated Box Small,Packaging,piece,₹50.82
+I0193,Bubble Wrap Plain,Packaging,roll,883.95
+I0194,Stretch Film Small,Packaging,roll,574.74
+I0195,BOPP Tape XL,Packaging,roll,₹62.68
+I0196,Plastic Crate XL,Packaging,piece,300.85
+I0197,Strapping Roll Type A,Packaging,roll,1128.49
+I0198,Strapping Roll XL,Packaging,roll,1386.13
+I0199,Plastic Crate Type B,Packaging,,396.55
+I0200,Strapping Roll Small,Packaging,roll,"₹1,672.43"
+I0201,Poly Bag Printed,Packaging,piece,4.21
+I0202,Label Roll Printed,Packaging,roll,282.49
+I0203,Shrink Wrap Type B,Packaging,roll,"₹1,067.92"
+I0204,Shrink Wrap Printed,Packaging,roll,1066.75
+I0205,Plastic Crate Large,Packaging,piece,394.92
+I0206,Strapping Roll Large,Packaging,roll,1896.12
+I0207,Label Roll Type B,Packaging,roll,297.02
+I0208,Stretch Film Printed,Packaging,roll,570.44
+I0209,Strapping Roll Printed,Packaging,roll,1516.84
+I0210,Wooden Pallet XL,Packaging,piece,775.28
+I0211,BOPP Tape Type C,Packaging,roll,₹59.10
+I0212,Plastic Crate Medium,Packaging,piece,₹309.25
+I0213,Label Roll Large,Packaging,roll,415.65
+I0214,Corrugated Box Type B,Packaging,piece,₹49.89
+I0215,Paper Bag Small,Packaging,piece,6.77
+I0216,Wooden Pallet Type A,Packaging,piece,1303.63
+I0217,Strapping Roll Plain,Packaging,roll,"₹1,430.69"
+I0218,Foam Sheet Small,Packaging,piece,127.91
+I0219,Foam Sheet Large,PACKAGING,piece,₹116.63
+I0220,BOPP Tape Plain,Packaging,roll,43.82
+I0221,Stretch Film Type C,Packaging,roll,1267.64
+I0222,Shrink Wrap Large,Packaging,roll,"₹1,184.63"
+I0223,BOPP Tape Small,Packaging,roll,46.81
+I0224,Paper Bag Type C,Packaging,piece,6.36
+I0225,Strapping Roll Type C,Packaging,roll,1514.82
+I0226,Wooden Pallet Type C,Packaging,piece,993.01
+I0227,Bubble Wrap Type D,Packaging,roll,618.86
+I0228,Bubble Wrap XL,Packaging,roll,₹639.32
+I0229,Poly Bag Small,Packaging,piece,2.85
+I0230,Stretch Film Type D,Packaging,roll,483.87
+I0231,Corrugated Box Type A,Packaging,piece,₹58.14
+I0232,Plastic Crate Type C,Packaging,piece,352.00
+I0233,Bubble Wrap Type A,Packaging,roll,1014.67
+I0234,Wooden Pallet Plain,Packaging,piece,₹959.84
+I0235,Label Roll Type A,packaging,roll,451.32
+I0236,Wooden Pallet Type D,Packaging,piece,1660.68
+I0237,Paper Bag Printed,Packaging,piece,5.28
+I0238,Paper Bag XL,Packaging,piece,₹6.36
+I0239,Shrink Wrap XL,Packaging,roll,"₹1,072.62"
+I0240,Bubble Wrap Type B,Packaging,roll,797.28
+I0241,Shrink Wrap Plain,Packaging,roll,"₹1,506.23"
+I0242,Poly Bag Type D,Packaging,piece,₹4.27
+I0243,Strapping Roll Type B,Packaging,roll,1070.36
+I0244,BOPP Tape Medium,Packaging,roll,54.39
+I0245,Foam Sheet Type C,Packaging,piece,130.71
+I0246,Plastic Crate Type D,Packaging,piece,₹349.26
+I0247,Wooden Pallet Printed,Packaging,piece,1421.46
+I0248,Paper Bag Large,Packaging,piece,₹7.92
+I0249,BOPP Tape Type A,Packaging,roll,50.69
+I0250,Stretch Film Type A,Packaging,roll,489.79
+I0251,Strapping Roll Medium,Packaging,roll,1357.35
+I0252,Plastic Crate Printed,Packaging,piece,₹526.53
+I0253,Paper Bag Medium,Packaging,piece,10.46
+I0254,Paper Bag Type A,Packaging,piece,₹8.57
+I0255,BOPP Tape Type B,Packaging,roll,64.23
+I0256,BOPP Tape Printed,Packaging,roll,63.11
+I0257,Plastic Crate Type A,Packaging,piece,822.46
+I0258,Corrugated Box Type C,Packaging,piece,34.97
+I0259,Strapping Roll Type D,Packaging,roll,1436.09
+I0260,Label Roll Medium,Packaging,roll,₹296.02
+I0261,Switchgear Panel 1HP,Electrical & Electronics,piece,68794.63
+I0262,Copper Cable 6A,Electrical & Electronics,metre,₹225.67
+I0263,LED Panel Single Phase,Electrical & Electronics,piece,2035.31
+I0264,Transformer Single Phase,Electrical & Electronics,piece,213984.65
+I0265,Copper Cable 5HP,Electrical & Electronics,metre,₹289.31
+I0266,Copper Cable 16A,Electrical & Electronics,metre,₹128.93
+I0267,Junction Box 5HP,Electrical & Electronics,piece,662.05
+I0268,Junction Box 63A,Electrical & Electronics,piece,₹982.81
+I0269,MCB 32A,Electrical & Electronics,piece,424.08
+I0270,LED Panel 1HP,Electrical & Electronics,piece,"₹1,912.00"
+I0271,PLC Module 63A,Electrical & Electronics,piece,41911.69
+I0272,Junction Box 10A,Electrical & Electronics,piece,"₹1,043.78"
+I0273,Copper Cable 63A,Electrical & Electronics,metre,332.17
+I0274,Cable Tray Three Phase,Electrical & Electronics,metre,₹501.61
+I0275,Relay IP65,Electrical & Electronics,piece,1177.71
+I0276,Relay 6A,Electrical & Electronics,piece,₹834.03
+I0277,Copper Cable Single Phase,Electrical & Electronics,,259.26
+I0278,PLC Module IP65,Electrical & Electronics,piece,21527.58
+I0279,LED Panel 5HP,Electrical & Electronics,piece,1224.70
+I0280,Motor Starter IP65,Electrical & Electronics,piece,10398.41
+I0281,Motor Starter 16A,Electrical & Electronics,piece,6897.58
+I0282,Sensor Single Phase,Electrical & Electronics,piece,4586.35
+I0283,PLC Module 10A,Electrical & Electronics,piece,27206.91
+I0284,Cable Tray 24V DC,Electrical & Electronics,metre,539.86
+I0285,MCB 63A,Electrical & Electronics,piece,422.45
+I0286,Copper Cable 1HP,ELECTRICAL & ELECTRONICS,metre,₹178.94
+I0287,Copper Cable IP65,Electrical & Electronics,metre,₹310.74
+I0288,LED Panel 10HP,Electrical & Electronics,,2034.88
+I0289,Cable Tray 5HP,Electrical & Electronics,metre,₹711.79
+I0290,LED Panel 32A,Electrical & Electronics,piece,1119.97
+I0291,Switchgear Panel 6A,Electrical & Electronics,,60841.09
+I0292,Contactor 32A,Electrical & Electronics,piece,2560.22
+I0293,Contactor 1HP,Electrical & Electronics,piece,"₹2,735.50"
+I0294,LED Panel Three Phase,Electrical & Electronics,piece,2520.90
+I0295,LED Panel 24V DC,Electrical & Electronics,,3356.74
+I0296,Transformer 63A,Electrical & Electronics,piece,"₹191,080.86"
+I0297,MCB Three Phase,Electrical & Electronics,piece,457.96
+I0298,Sensor 24V DC,Electrical & Electronics,piece,4159.34
+I0299,LED Panel 63A,Electrical & Electronics,piece,1603.08
+I0300,Sensor Three Phase,Electrical & Electronics,piece,5209.71
+I0301,Cable Tray 6A,Electrical & Electronics,metre,608.25
+I0302,MCB 1HP,Electrical & Electronics,piece,585.38
+I0303,Switchgear Panel 10A,Electrical & Electronics,piece,"₹67,432.81"
+I0304,Contactor 10A,Electrical & Electronics,piece,3501.40
+I0305,Contactor Single Phase,Electrical & Electronics,piece,"₹1,882.92"
+I0306,Motor Starter 32A,Electrical & Electronics,piece,5356.91
+I0307,PLC Module 1HP,Electrical & Electronics,piece,27218.13
+I0308,Switchgear Panel 5HP,Electrical & Electronics,piece,77044.87
+I0309,Motor Starter 1HP,Electrical & Electronics,piece,7997.08
+I0310,Relay 1HP,Electrical & Electronics,piece,₹981.79
+I0311,LED Panel IP65,Electrical & Electronics,piece,1801.94
+I0312,Motor Starter 10A,electrical & electronics,piece,8113.99
+I0313,MCB 24V DC,Electrical & Electronics,piece,341.76
+I0314,Cable Tray 63A,Electrical & Electronics,metre,741.48
+I0315,MCB Single Phase,Electrical & Electronics,piece,346.35
+I0316,Copper Cable 10HP,Electrical & Electronics,metre,₹253.16
+I0317,Transformer 24V DC,Electrical & Electronics,piece,160385.27
+I0318,Contactor 10HP,Electrical & Electronics,piece,3643.90
+I0319,Switchgear Panel 10HP,Electrical & Electronics,piece,117137.62
+I0320,Motor Starter 63A,Electrical & Electronics,piece,"₹5,751.10"
+I0321,Junction Box Single Phase,Electrical & Electronics,piece,623.17
+I0322,Transformer 1HP,Electrical & Electronics,piece,"₹143,450.83"
+I0323,Relay 16A,Electrical & Electronics,piece,1012.33
+I0324,Contactor 63A,Electrical & Electronics,piece,2138.41
+I0325,LED Panel 6A,Electrical & Electronics,piece,2017.00
+I0326,Motor Starter Single Phase,Electrical & Electronics,piece,9475.22
+I0327,Transformer 10HP,Electrical & Electronics,piece,158816.66
+I0328,Contactor 24V DC,Electrical & Electronics,piece,"₹2,163.17"
+I0329,Junction Box Three Phase,Electrical & Electronics,piece,763.43
+I0330,Motor Starter 24V DC,Electrical & Electronics,piece,6338.61
+I0331,PLC Module 16A,Electrical & Electronics,piece,20876.75
+I0332,Contactor Three Phase,Electrical & Electronics,piece,"₹1,713.99"
+I0333,Transformer 16A,electrical & electronics,piece,"₹139,788.15"
+I0334,Motor Starter Three Phase,Electrical & Electronics,piece,7085.48
+I0335,Junction Box IP65,Electrical & Electronics,piece,828.26
+I0336,Switchgear Panel Single Phase,Electrical & Electronics,piece,91690.00
+I0337,Cable Tray Single Phase,Electrical & Electronics,metre,819.05
+I0338,Cable Tray 1HP,Electrical & Electronics,metre,582.37
+I0339,MCB 5HP,Electrical & Electronics,piece,591.03
+I0340,Motor Starter 6A,Electrical & Electronics,piece,7367.74
+I0341,Sensor 32A,Electrical & Electronics,,3316.04
+I0342,Sensor 16A,ELECTRICAL & ELECTRONICS,piece,"₹4,244.99"
+I0343,Copper Cable 24V DC,Electrical & Electronics,metre,324.02
+I0344,PLC Module Three Phase,Electrical & Electronics,piece,30659.04
+I0345,Relay 63A,Electrical & Electronics,piece,888.84
+I0346,Copper Cable 32A,Electrical & Electronics,metre,281.28
+I0347,Sensor IP65,electrical & electronics,piece,4097.47
+I0348,Cable Tray 10HP,Electrical & Electronics,metre,611.31
+I0349,PLC Module 32A,Electrical & Electronics,piece,"₹31,501.47"
+I0350,Junction Box 16A,Electrical & Electronics,piece,953.15
+I0351,Motor Starter 10HP,Electrical & Electronics,piece,6907.72
+I0352,LED Panel 16A,Electrical & Electronics,piece,"₹1,909.06"
+I0353,Cable Tray 10A,Electrical & Electronics,metre,621.74
+I0354,Copper Cable Three Phase,Electrical & Electronics,metre,254.21
+I0355,MCB 10HP,Electrical & Electronics,piece,₹440.22
+I0356,Relay 24V DC,Electrical & Electronics,piece,₹879.10
+I0357,Junction Box 10HP,Electrical & Electronics,piece,₹869.44
+I0358,Sensor 6A,ELECTRICAL & ELECTRONICS,piece,2630.16
+I0359,Sensor 10HP,Electrical & Electronics,piece,3100.05
+I0360,Sensor 10A,Electrical & Electronics,piece,"₹2,735.04"
+I0361,MCB IP65,Electrical & Electronics,piece,486.88
+I0362,Transformer 6A,Electrical & Electronics,piece,132701.30
+I0363,MCB 16A,Electrical & Electronics,piece,339.83
+I0364,Transformer Three Phase,Electrical & Electronics,piece,213212.47
+I0365,Cable Tray 16A,Electrical & Electronics,metre,508.62
+I0366,Transformer 5HP,Electrical & Electronics,piece,110692.89
+I0367,Junction Box 1HP,Electrical & Electronics,piece,877.39
+I0368,Junction Box 6A,Electrical & Electronics,piece,₹639.67
+I0369,PLC Module 5HP,Electrical & Electronics,piece,21870.91
+I0370,PLC Module 6A,Electrical & Electronics,piece,24625.34
+I0371,Copper Cable 10A,Electrical & Electronics,metre,₹403.12
+I0372,Transformer IP65,Electrical & Electronics,piece,141119.65
+I0373,Contactor 5HP,Electrical & Electronics,piece,2818.72
+I0374,Relay 5HP,Electrical & Electronics,piece,"₹1,123.81"
+I0375,Contactor 6A,Electrical & Electronics,piece,1996.60
+I0376,Switchgear Panel Three Phase,Electrical & Electronics,,"₹93,857.06"
+I0377,Contactor 16A,Electrical & Electronics,piece,"₹2,644.64"
+I0378,Cable Tray 32A,Electrical & Electronics,metre,₹527.17
+I0379,MCB 6A,Electrical & Electronics,piece,624.05
+I0380,Sensor 1HP,Electrical & Electronics,piece,3502.01
+I0381,Relay 10HP,Electrical & Electronics,piece,905.86
+I0382,PLC Module Single Phase,Electrical & Electronics,piece,27344.07
+I0383,PLC Module 10HP,Electrical & Electronics,piece,"₹36,415.10"
+I0384,Relay Three Phase,Electrical & Electronics,piece,701.84
+I0385,Motor Starter 5HP,Electrical & Electronics,piece,5073.23
+I0386,Transformer 10A,Electrical & Electronics,piece,126919.20
+I0387,MCB 10A,electrical & electronics,piece,₹546.24
+I0388,Relay Single Phase,Electrical & Electronics,piece,₹735.77
+I0389,Switchgear Panel 63A,Electrical & Electronics,piece,114641.31
+I0390,Transformer 32A,Electrical & Electronics,,"₹138,990.38"
+I0391,PLC Module 24V DC,Electrical & Electronics,piece,41208.77
+I0392,Switchgear Panel 32A,Electrical & Electronics,piece,90554.55
+I0393,Switchgear Panel IP65,Electrical & Electronics,piece,121522.34
+I0394,Switchgear Panel 16A,Electrical & Electronics,piece,68933.79
+I0395,Sensor 5HP,Electrical & Electronics,piece,"₹4,986.94"
+I0396,Junction Box 32A,ELECTRICAL & ELECTRONICS,piece,"₹1,093.62"
+I0397,Sensor 63A,Electrical & Electronics,piece,4410.24
+I0398,Junction Box 24V DC,Electrical & Electronics,piece,600.78
+I0399,Switchgear Panel 24V DC,electrical & electronics,piece,"₹81,485.00"
+I0400,Contactor IP65,Electrical & Electronics,piece,"₹3,011.16"
+I0401,Welding Rod Type B,mro,kg,₹319.31
+I0402,Valve Grade 2,MRO,,"₹3,005.49"
+I0403,Valve Industrial,MRO,,2287.24
+I0404,Gasket Size L,MRO,piece,212.31
+I0405,V-Belt Grade 1,MRO,piece,596.51
+I0406,V-Belt Size M,MRO,piece,628.73
+I0407,Grinding Wheel Heavy Duty,MRO,piece,243.55
+I0408,Gasket Type A,MRO,piece,₹225.06
+I0409,Pump Seal Grade 2,MRO,piece,2945.94
+I0410,V-Belt Bulk Pack,MRO,piece,₹549.98
+I0411,Grease Type B,MRO,kg,251.66
+I0412,Pump Seal Heavy Duty,MRO,piece,"₹3,683.45"
+I0413,Lubricant Type A,MRO,litre,226.48
+I0414,Grease Size M,MRO,kg,317.85
+I0415,Bearing Bulk Pack,MRO,piece,1226.17
+I0416,Pump Seal Grade 1,MRO,piece,2211.42
+I0417,Fastener Set Industrial,MRO,box,1190.09
+I0418,V-Belt Grade 2,MRO,piece,859.84
+I0419,Bearing Grade 2,MRO,piece,718.70
+I0420,Safety Gloves Industrial,MRO,pair,114.60
+I0421,Safety Helmet Size M,MRO,piece,₹386.20
+I0422,Fastener Set Heavy Duty,MRO,box,818.79
+I0423,Fastener Set Bulk Pack,MRO,box,1098.67
+I0424,Safety Gloves Type B,MRO,pair,100.38
+I0425,Fastener Set Type A,MRO,box,₹805.88
+I0426,Gasket Heavy Duty,MRO,piece,152.83
+I0427,Lubricant Std Pack,MRO,litre,₹267.13
+I0428,Hydraulic Oil Size S,MRO,litre,₹180.99
+I0429,Grease Size XL,MRO,kg,₹539.82
+I0430,Grinding Wheel Size L,MRO,piece,₹181.97
+I0431,Bearing Size L,MRO,piece,742.27
+I0432,Gasket Size S,MRO,,153.80
+I0433,Gasket Bulk Pack,MRO,piece,194.79
+I0434,Fastener Set Size S,MRO ,box,1424.56
+I0435,Pump Seal Industrial,MRO,piece,4043.44
+I0436,Valve Type A,MRO,piece,"₹2,820.40"
+I0437,Valve Type B,MRO,piece,2743.80
+I0438,Safety Helmet Type A,MRO,piece,₹279.92
+I0439,Welding Rod Std Pack,MRO,kg,247.34
+I0440,Pump Seal Std Pack,MRO,piece,2707.31
+I0441,Bearing Type A,MRO,,759.96
+I0442,Welding Rod Heavy Duty,MRO,,237.05
+I0443,Safety Helmet Industrial,MRO,piece,391.51
+I0444,Grinding Wheel Size M,MRO,piece,122.03
+I0445,Fastener Set Size L,MRO,box,1120.25
+I0446,Pump Seal Size S,MRO,piece,3110.09
+I0447,V-Belt Type A,MRO,piece,731.92
+I0448,Valve Size XL,MRO,piece,3262.10
+I0449,Lubricant Size L,MRO,,385.69
+I0450,Grease Heavy Duty,MRO,kg,340.66
+I0451,V-Belt Size L,MRO,piece,642.17
+I0452,Gasket Grade 1,MRO,piece,146.94
+I0453,Fastener Set Grade 2,MRO,box,₹887.60
+I0454,Lubricant Heavy Duty,MRO,litre,₹232.01
+I0455,V-Belt Type B,MRO,piece,₹702.63
+I0456,Hydraulic Oil Size L,MRO,litre,254.28
+I0457,Cutting Disc Type B,MRO,piece,71.97
+I0458,Lubricant Size M,MRO,litre,₹192.72
+I0459,Cutting Disc Std Pack,MRO,piece,65.95
+I0460,Grease Industrial,MRO,kg,392.62
+I0461,Cutting Disc Grade 1,MRO,piece,34.98
+I0462,Welding Rod Size XL,MRO,kg,₹198.59
+I0463,Welding Rod Industrial,MRO,kg,260.44
+I0464,Grease Grade 1,MRO,kg,354.20
+I0465,Valve Std Pack,MRO,piece,2618.68
+I0466,Lubricant Grade 2,MRO,litre,276.29
+I0467,Bearing Std Pack,MRO,piece,847.45
+I0468,Safety Helmet Grade 2,MRO,piece,290.14
+I0469,Bearing Size S,MRO,piece,906.56
+I0470,Fastener Set Grade 1,MRO,box,₹949.86
+I0471,Safety Helmet Std Pack,MRO,piece,355.21
+I0472,Valve Size L,MRO,piece,3115.93
+I0473,Bearing Size XL,MRO,piece,₹707.28
+I0474,Grease Grade 2,MRO,kg,283.92
+I0475,Bearing Size M,MRO,piece,585.94
+I0476,Pump Seal Size L,MRO,piece,2937.34
+I0477,V-Belt Heavy Duty,MRO,piece,516.82
+I0478,Pump Seal Size M,MRO,piece,4810.60
+I0479,Gasket Grade 2,MRO,piece,183.63
+I0480,Hydraulic Oil Grade 2,MRO,litre,161.26
+I0481,Welding Rod Size S,MRO,kg,193.22
+I0482,Lubricant Bulk Pack,MRO,litre,400.48
+I0483,V-Belt Industrial,MRO,piece,₹446.86
+I0484,Grinding Wheel Industrial,MRO,piece,136.50
+I0485,Lubricant Size S,MRO,litre,176.19
+I0486,Hydraulic Oil Type A,MRO,litre,107.08
+I0487,Welding Rod Type A,MRO,kg,₹333.43
+I0488,Cutting Disc Grade 2,MRO,piece,90.04
+I0489,Hydraulic Oil Heavy Duty,MRO,litre,153.37
+I0490,Cutting Disc Bulk Pack,MRO,piece,49.94
+I0491,Lubricant Industrial,MRO,litre,129.87
+I0492,Safety Gloves Std Pack,MRO,pair,180.92
+I0493,Gasket Size XL,MRO,piece,167.34
+I0494,Hydraulic Oil Size XL,MRO,litre,₹114.15
+I0495,Valve Size M,MRO,piece,"₹3,420.94"
+I0496,Lubricant Type B,MRO,litre,314.72
+I0497,Grinding Wheel Grade 1,MRO,piece,160.51
+I0498,Lubricant Grade 1,MRO,litre,260.24
+I0499,Grease Type A,MRO,kg,₹397.62
+I0500,Pump Seal Type B,MRO,piece,"₹5,614.64"
+I0501,Pump Seal Bulk Pack,MRO,piece,4023.34
+I0502,Safety Helmet Type B,MRO,piece,₹484.05
+I0503,Safety Helmet Size XL,MRO,piece,₹575.75
+I0504,Safety Gloves Heavy Duty,MRO,pair,181.67
+I0505,Pump Seal Size XL,MRO,piece,4057.16
+I0506,Cutting Disc Size L,MRO,piece,95.03
+I0507,V-Belt Size S,MRO,piece,545.89
+I0508,Safety Helmet Size S,MRO,piece,279.73
+I0509,Bearing Grade 1,MRO,piece,654.75
+I0510,Safety Helmet Bulk Pack,MRO,piece,₹300.23
+I0511,V-Belt Size XL,MRO,piece,527.49
+I0512,Grinding Wheel Size XL,MRO,piece,169.68
+I0513,Grinding Wheel Type B,MRO,piece,₹160.93
+I0514,Pump Seal Type A,MRO,piece,"₹3,562.23"
+I0515,Grinding Wheel Std Pack,MRO,piece,₹207.41
+I0516,Safety Helmet Size L,MRO,piece,484.94
+I0517,Bearing Type B,MRO,piece,₹448.12
+I0518,Grinding Wheel Grade 2,MRO,piece,192.83
+I0519,Valve Grade 1,MRO,piece,2213.84
+I0520,Welding Rod Grade 2,MRO,kg,222.49
+I0521,Grease Size L,MRO,kg,232.18
+I0522,Safety Gloves Type A,MRO,pair,158.27
+I0523,Welding Rod Grade 1,MRO,kg,252.25
+I0524,Valve Heavy Duty,MRO,piece,"₹3,667.10"
+I0525,Hydraulic Oil Industrial,MRO,litre,133.48
+I0526,Cutting Disc Type A,MRO,piece,₹66.68
+I0527,Grinding Wheel Size S,MRO,piece,₹200.25
+I0528,Fastener Set Size XL,MRO,box,₹777.83
+I0529,Valve Size S,MRO,piece,3008.57
+I0530,Welding Rod Bulk Pack,MRO,kg,₹237.82
+I0531,Grease Size S,MRO,,245.65
+I0532,Gasket Std Pack,MRO,piece,262.72
+I0533,Hydraulic Oil Grade 1,MRO,litre,172.75
+I0534,Welding Rod Size L,MRO,kg,242.99
+I0535,Safety Gloves Grade 2,MRO,pair,114.49
+I0536,Gasket Size M,MRO,piece,115.35
+I0537,Bearing Heavy Duty,MRO,piece,964.45
+I0538,Safety Gloves Size L,MRO,pair,125.15
+I0539,Hydraulic Oil Bulk Pack,MRO,litre,219.62
+I0540,Welding Rod Size M,mro,kg,351.46
+I0541,Fastener Set Std Pack,MRO,box,618.85
+I0542,Grease Std Pack,MRO,kg,₹293.89
+I0543,Lubricant Size XL,MRO,litre,226.40
+I0544,Cutting Disc Size S,MRO,piece,55.00
+I0545,Cutting Disc Heavy Duty,MRO,piece,₹61.03
+I0546,Safety Gloves Bulk Pack,MRO,pair,196.92
+I0547,Fastener Set Size M,MRO,box,1081.02
+I0548,Cutting Disc Size M,MRO,piece,65.49
+I0549,Hydraulic Oil Type B,MRO,litre,₹188.78
+I0550,V-Belt Std Pack,MRO,piece,647.67
+I0551,Cutting Disc Size XL,MRO,piece,98.36
+I0552,Grinding Wheel Bulk Pack,MRO,piece,₹183.05
+I0553,Hydraulic Oil Size M,MRO,litre,219.38
+I0554,Safety Gloves Size S,MRO,pair,138.75
+I0555,Safety Gloves Size M,MRO,pair,173.28
+I0556,Bearing Industrial,MRO,piece,759.06
+I0557,Safety Helmet Grade 1,MRO,piece,251.90
+I0558,Grease Bulk Pack,MRO,kg,213.73
+I0559,Gasket Type B,MRO,piece,202.50
+I0560,Valve Bulk Pack,MRO,piece,2106.08
+I0561,Printer Max,IT Hardware,,21719.42
+I0562,Router Gen 4,IT Hardware,piece,11069.67
+I0563,SSD Enterprise,IT Hardware,piece,"₹9,267.84"
+I0564,Server Rack Basic,IT Hardware,piece,156279.21
+I0565,RAM Module Enterprise,IT Hardware,piece,5145.66
+I0566,Laptop Standard,IT Hardware,piece,42803.61
+I0567,Laptop Basic,IT Hardware,piece,60842.14
+I0568,Network Switch Gen 5,IT Hardware,piece,39585.76
+I0569,RAM Module Gen 5,IT Hardware,piece,5968.94
+I0570,Desktop Gen 4,IT Hardware,piece,"₹63,559.50"
+I0571,Network Switch Gen 4,IT Hardware,piece,32603.74
+I0572,Router Basic,IT Hardware,,7966.12
+I0573,SSD Max,IT Hardware,piece,5304.74
+I0574,UPS Standard,IT Hardware,piece,"₹12,641.62"
+I0575,Monitor Lite,IT Hardware,piece,11989.22
+I0576,Printer Basic,IT Hardware,piece,"₹18,410.87"
+I0577,Laptop Max,IT Hardware,piece,"₹104,535.04"
+I0578,Laptop Lite,IT Hardware,piece,69637.03
+I0579,SSD Gen 4,IT Hardware,piece,6885.74
+I0580,Desktop Enterprise,IT Hardware,piece,"₹62,838.67"
+I0581,Printer Enterprise,IT Hardware,piece,17599.30
+I0582,Laptop Enterprise,IT Hardware,piece,"₹72,349.46"
+I0583,Router Standard,IT Hardware,piece,7340.47
+I0584,SSD Lite,IT Hardware,piece,"₹4,918.61"
+I0585,Printer Gen 5,IT Hardware,piece,19810.90
+I0586,Printer Standard,IT Hardware,piece,27437.08
+I0587,Monitor Pro,IT Hardware,piece,"₹10,785.68"
+I0588,Router Pro,IT Hardware,piece,8625.26
+I0589,Desktop Max,IT Hardware,piece,58930.03
+I0590,Printer Gen 4,IT Hardware,piece,26293.04
+I0591,Desktop Pro,IT Hardware,piece,"₹48,066.42"
+I0592,Router Gen 5,IT Hardware,piece,5288.05
+I0593,Desktop Lite,IT Hardware,piece,47964.02
+I0594,Server Rack Max,IT Hardware,piece,157792.40
+I0595,UPS Max,IT Hardware,piece,16328.64
+I0596,SSD Gen 5,IT Hardware,piece,"₹8,553.66"
+I0597,RAM Module Basic,IT Hardware,piece,4921.45
+I0598,Printer Pro,IT Hardware,piece,"₹29,845.48"
+I0599,Router Max,IT Hardware,piece,"₹8,397.13"
+I0600,Network Switch Pro,IT Hardware,piece,28494.02
+I0601,UPS Enterprise,IT Hardware,piece,18454.34
+I0602,Printer Lite,IT Hardware,piece,18311.98
+I0603,SSD Basic,IT Hardware,piece,7892.09
+I0604,Network Switch Basic,IT Hardware,piece,"₹26,285.44"
+I0605,UPS Basic,IT Hardware,piece,14453.44
+I0606,SSD Standard,IT Hardware,piece,"₹7,064.27"
+I0607,Desktop Gen 5,IT Hardware,piece,"₹55,890.73"
+I0608,Monitor Enterprise,IT HARDWARE,piece,"₹17,079.79"
+I0609,Server Rack Gen 4,IT Hardware,piece,100538.65
+I0610,Router Lite,IT Hardware,piece,"₹8,291.30"
+I0611,RAM Module Standard,IT Hardware,piece,5073.53
+I0612,Monitor Gen 4,IT Hardware,piece,11077.41
+I0613,Desktop Standard,IT Hardware,piece,41943.32
+I0614,Network Switch Lite,IT Hardware ,piece,24212.64
+I0615,Router Enterprise,IT Hardware,piece,11786.70
+I0616,Monitor Max,IT Hardware,piece,11575.65
+I0617,RAM Module Max,IT Hardware,,4407.22
+I0618,Network Switch Standard,IT Hardware,piece,22495.10
+I0619,Server Rack Pro,IT Hardware,piece,70681.29
+I0620,RAM Module Lite,IT Hardware ,piece,4703.35
+I0621,Server Rack Gen 5,IT Hardware,piece,"₹91,160.92"
+I0622,UPS Pro,IT Hardware,piece,"₹17,590.54"
+I0623,RAM Module Gen 4,IT Hardware,piece,"₹4,292.59"
+I0624,Server Rack Enterprise,IT Hardware,piece,101517.43
+I0625,Laptop Gen 5,IT Hardware,piece,68829.32
+I0626,Network Switch Max,IT Hardware,piece,"₹21,563.50"
+I0627,UPS Gen 5,IT Hardware,piece,20757.80
+I0628,Desktop Basic,IT Hardware,piece,35811.23
+I0629,Monitor Basic,IT Hardware,piece,11079.80
+I0630,Monitor Gen 5,IT Hardware,piece,9695.30
+I0631,Water Treatment Chemical AR Grade,Chemicals,kg,209.84
+I0632,Sulphuric Acid Lab Grade,Chemicals,litre,60.62
+I0633,Adhesive Industrial,Chemicals,kg,351.56
+I0634,Industrial Solvent 50kg Bag,Chemicals,litre,₹108.12
+I0635,Adhesive AR Grade,Chemicals,kg,₹496.86
+I0636,Paint Primer Technical Grade,Chemicals,litre,277.00
+I0637,Degreaser Industrial,Chemicals,litre,186.41
+I0638,Water Treatment Chemical IBC Tank,Chemicals,kg,₹216.73
+I0639,Sulphuric Acid Technical Grade,Chemicals,litre,48.55
+I0640,Paint Primer 25kg Bag,Chemicals,litre,₹324.98
+I0641,Caustic Soda 50kg Bag,Chemicals,kg,₹61.85
+I0642,Caustic Soda IBC Tank,Chemicals,kg,₹85.87
+I0643,Industrial Solvent Industrial,Chemicals,litre,150.76
+I0644,Epoxy Resin Technical Grade,Chemicals,kg,596.34
+I0645,Caustic Soda 20L Drum,Chemicals,kg,58.03
+I0646,Adhesive Technical Grade,Chemicals,kg,408.75
+I0647,Water Treatment Chemical 50L Drum,Chemicals,kg,190.25
+I0648,Paint Primer AR Grade,Chemicals,litre,₹255.77
+I0649,Adhesive IBC Tank,chemicals,kg,₹351.08
+I0650,Epoxy Resin 50L Drum,Chemicals,kg,₹406.26
+I0651,Industrial Solvent AR Grade,Chemicals,litre,186.45
+I0652,Epoxy Resin 200L Drum,Chemicals,kg,₹448.95
+I0653,Degreaser 200L Drum,Chemicals,litre,₹186.97
+I0654,Water Treatment Chemical Industrial,Chemicals,kg,254.92
+I0655,Acetone IBC Tank,Chemicals ,litre,132.07
+I0656,Paint Primer 50L Drum,Chemicals ,litre,347.10
+I0657,Adhesive 20L Drum,Chemicals,kg,₹431.19
+I0658,Acetone 20L Drum,Chemicals,litre,138.70
+I0659,Caustic Soda AR Grade,Chemicals,kg,76.25
+I0660,Degreaser 25kg Bag,Chemicals,litre,170.41
+I0661,Paint Primer IBC Tank,Chemicals,litre,₹222.30
+I0662,Adhesive 200L Drum,CHEMICALS,kg,673.19
+I0663,Industrial Solvent 25kg Bag,Chemicals,litre,₹110.72
+I0664,Epoxy Resin Industrial,CHEMICALS,kg,₹541.70
+I0665,Caustic Soda Technical Grade,Chemicals,kg,59.21
+I0666,Paint Primer Lab Grade,Chemicals,,257.80
+I0667,Industrial Solvent Lab Grade,Chemicals,litre,₹112.62
+I0668,Degreaser 20L Drum,Chemicals,litre,265.23
+I0669,Paint Primer 200L Drum,Chemicals,litre,₹325.54
+I0670,Coolant 200L Drum,Chemicals ,litre,₹164.15
+I0671,Degreaser Lab Grade,Chemicals,litre,₹332.71
+I0672,Acetone 200L Drum,Chemicals,litre,97.60
+I0673,Coolant 25kg Bag,Chemicals,litre,₹130.39
+I0674,Acetone 50kg Bag,Chemicals,litre,85.98
+I0675,Paint Primer Industrial,CHEMICALS,litre,370.52
+I0676,Sulphuric Acid Industrial,Chemicals,litre,37.74
+I0677,Industrial Solvent 200L Drum,Chemicals,litre,77.71
+I0678,Sulphuric Acid AR Grade,Chemicals,litre,₹38.73
+I0679,Coolant AR Grade,Chemicals,litre,150.29
+I0680,Coolant Technical Grade,Chemicals,litre,134.22
+I0681,Industrial Solvent 50L Drum,Chemicals,litre,154.82
+I0682,Coolant Industrial,Chemicals,litre,153.54
+I0683,Epoxy Resin 25kg Bag,Chemicals,kg,374.99
+I0684,Degreaser 50kg Bag,Chemicals,litre,₹284.38
+I0685,Paint Primer 20L Drum,Chemicals,litre,₹245.61
+I0686,Acetone Industrial,Chemicals,litre,114.67
+I0687,Adhesive 50kg Bag,Chemicals,kg,218.70
+I0688,Sulphuric Acid 50kg Bag,Chemicals,litre,49.37
+I0689,Sulphuric Acid 25kg Bag,Chemicals,litre,₹69.08
+I0690,Caustic Soda Lab Grade,Chemicals,kg,₹71.81
+I0691,Caustic Soda 25kg Bag,Chemicals,kg,62.51
+I0692,Acetone 50L Drum,Chemicals,litre,₹78.62
+I0693,Water Treatment Chemical 50kg Bag,Chemicals,kg,212.49
+I0694,Industrial Solvent 20L Drum,Chemicals,litre,195.77
+I0695,Water Treatment Chemical 20L Drum,Chemicals,kg,174.36
+I0696,Adhesive 50L Drum,Chemicals,kg,372.23
+I0697,Caustic Soda 200L Drum,Chemicals,kg,77.55
+I0698,Coolant 20L Drum,Chemicals,litre,₹148.09
+I0699,Epoxy Resin IBC Tank,Chemicals,kg,458.03
+I0700,Coolant 50L Drum,Chemicals,litre,214.75
+I0701,Degreaser 50L Drum,Chemicals,litre,219.43
+I0702,Acetone Lab Grade,Chemicals,litre,167.83
+I0703,Epoxy Resin 20L Drum,Chemicals,kg,₹469.56
+I0704,Caustic Soda Industrial,Chemicals,kg,₹63.54
+I0705,Sulphuric Acid 50L Drum,Chemicals,litre,₹37.94
+I0706,Degreaser AR Grade,Chemicals,litre,223.92
+I0707,Acetone 25kg Bag,Chemicals,litre,207.31
+I0708,Adhesive Lab Grade,Chemicals,kg,516.65
+I0709,Water Treatment Chemical Lab Grade,Chemicals,kg,306.91
+I0710,Acetone Technical Grade,Chemicals,litre,139.07
+I0711,Degreaser IBC Tank,Chemicals,litre,₹306.68
+I0712,Sulphuric Acid 20L Drum,Chemicals,litre,₹53.50
+I0713,Sulphuric Acid 200L Drum,Chemicals,litre,₹30.81
+I0714,Epoxy Resin 50kg Bag,Chemicals,kg,529.61
+I0715,Water Treatment Chemical 25kg Bag,Chemicals,kg,165.67
+I0716,Coolant 50kg Bag,Chemicals,litre,177.33
+I0717,Water Treatment Chemical Technical Grade,Chemicals,kg,204.09
+I0718,Coolant Lab Grade,Chemicals,litre,162.27
+I0719,Industrial Solvent IBC Tank,Chemicals,litre,₹154.19
+I0720,Sulphuric Acid IBC Tank,Chemicals ,litre,39.63
+I0721,File Folder Premium,Office Supplies,piece,37.93
+I0722,Office Chair Brand B,Office Supplies,piece,10523.86
+I0723,Office Chair Pack of 10,Office Supplies,piece,6331.62
+I0724,Pen Box Pack of 5,Office Supplies,box,217.03
+I0725,Printer Toner Brand A,Office Supplies,piece,3294.78
+I0726,File Folder Pack of 10,Office Supplies,piece,32.65
+I0727,Notebook Std,Office Supplies,piece,59.17
+I0728,Desk Organiser Pack of 50,Office Supplies,piece,375.12
+I0729,Envelope Brand B,Office Supplies,box,223.82
+I0730,A4 Paper Premium,Office Supplies,ream,494.21
+I0731,Desk Organiser Brand B,Office Supplies,piece,400.11
+I0732,Whiteboard Marker Pack of 5,Office Supplies,box,₹277.57
+I0733,Office Chair Brand A,Office Supplies,piece,5647.48
+I0734,Pen Box Pack of 50,Office Supplies,box,253.85
+I0735,Desk Organiser Economy,Office Supplies,piece,481.73
+I0736,File Folder Std,Office Supplies,piece,31.81
+I0737,Whiteboard Marker Brand A,Office Supplies,box,187.02
+I0738,Stapler Pack of 50,Office Supplies,piece,163.23
+I0739,Envelope Premium,Office Supplies,box,₹262.97
+I0740,Office Chair Premium,Office Supplies,piece,"₹5,360.90"
+I0741,Printer Toner Economy,Office Supplies,piece,"₹2,983.97"
+I0742,A4 Paper Brand B,Office Supplies,ream,336.29
+I0743,Pen Box Pack of 10,Office Supplies,box,217.99
+I0744,Desk Organiser Brand A,Office Supplies,piece,₹312.81
+I0745,Office Chair Economy,Office Supplies,piece,6465.40
+I0746,Printer Toner Pack of 10,Office Supplies,piece,"₹4,325.54"
+I0747,File Folder Pack of 5,Office Supplies,piece,23.18
+I0748,File Folder Pack of 50,Office Supplies,piece,57.96
+I0749,Envelope Pack of 5,Office Supplies,box,₹251.41
+I0750,Office Chair Pack of 5,Office Supplies,piece,8954.08
+I0751,Printer Toner Std,Office Supplies,piece,"₹3,159.48"
+I0752,Whiteboard Marker Std,Office Supplies,box,328.92
+I0753,Notebook Brand B,Office Supplies,piece,91.91
+I0754,A4 Paper Std,Office Supplies,ream,265.24
+I0755,Envelope Std,Office Supplies,box,280.09
+I0756,Printer Toner Brand B,Office Supplies,piece,4916.89
+I0757,Notebook Brand A,Office Supplies,piece,₹71.77
+I0758,Stapler Pack of 5,Office Supplies,piece,₹207.79
+I0759,Envelope Pack of 50,Office Supplies,box,258.76
+I0760,A4 Paper Pack of 10,Office Supplies,ream,₹429.07
+I0761,Stapler Economy,Office Supplies,piece,141.69
+I0762,A4 Paper Pack of 5,Office Supplies,ream,319.59
+I0763,Whiteboard Marker Pack of 10,Office Supplies,box,201.89
+I0764,Notebook Pack of 10,Office Supplies,piece,69.90
+I0765,A4 Paper Pack of 50,Office Supplies,ream,₹380.29
+I0766,Office Chair Std,Office Supplies,piece,8448.83
+I0767,Printer Toner Pack of 50,Office Supplies,piece,2036.25
+I0768,Whiteboard Marker Brand B,Office Supplies,box,₹238.86
+I0769,File Folder Brand B,Office Supplies,piece,₹24.65
+I0770,File Folder Brand A,Office Supplies,piece,₹47.50
+I0771,Printer Toner Premium,Office Supplies,piece,3569.87
+I0772,Printer Toner Pack of 5,Office Supplies,piece,4433.99
+I0773,Whiteboard Marker Pack of 50,Office Supplies,box,211.30
+I0774,A4 Paper Brand A,Office Supplies,ream,150.67
+I0775,Pen Box Brand B,office supplies,box,₹230.18
+I0776,File Folder Economy,Office Supplies,piece,37.19
+I0777,Stapler Brand B,Office Supplies,piece,269.43
+I0778,Notebook Pack of 50,Office Supplies,piece,59.21
+I0779,Notebook Pack of 5,Office Supplies,piece,68.76
+I0780,Pen Box Economy,Office Supplies,box,₹243.81
+I0781,Envelope Brand A,Office Supplies,box,201.25
+I0782,Office Chair Pack of 50,Office Supplies,piece,"₹8,481.78"
+I0783,Stapler Brand A,Office Supplies,piece,173.52
+I0784,Envelope Pack of 10,Office Supplies,box,₹255.63
+I0785,Desk Organiser Pack of 10,Office Supplies,piece,490.74
+I0786,Notebook Economy,Office Supplies,piece,55.64
+I0787,A4 Paper Economy,Office Supplies,ream,₹228.83
+I0788,Envelope Economy,Office Supplies,box,178.64
+I0789,Stapler Premium,Office Supplies,piece,224.12
+I0790,Pen Box Std,Office Supplies,box,₹183.19
+I0791,Notebook Premium,Office Supplies,piece,70.49
+I0792,Desk Organiser Pack of 5,Office Supplies ,piece,395.07
+I0793,Stapler Std,Office Supplies,piece,271.42
+I0794,Pen Box Premium,Office Supplies,box,₹172.91
+I0795,Pen Box Brand A,Office Supplies,box,236.55
+I0796,Whiteboard Marker Economy,Office Supplies,box,239.90
+I0797,Stapler Pack of 10,Office Supplies,piece,103.78
+I0798,Desk Organiser Premium,Office Supplies,piece,319.30
+I0799,Desk Organiser Std,Office Supplies ,piece,379.11
+I0800,Whiteboard Marker Premium,Office Supplies,box,₹263.50

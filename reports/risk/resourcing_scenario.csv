@@ -1,0 +1,7 @@
+measure,now,after_resourcing,change
+"On-time delivery, all 2025 lines (%)",70.88542850647875,72.8286495396681,1.94322103318936
+Late lines avoided (expected),,341.929173,
+"On-time delivery, re-sourced lines (%)",59.05639707088458,79.08739724663151,20.031000175746932
+"Average lead time, all 2025 lines (days)",12.185401962472026,11.682915619441097,-0.5024863430309292
+"Average lead time, re-sourced lines (days)",16.085058657642413,11.146068527918782,-4.938990129723631
+Cost change from price differences (₹ crore),,-1.2544858497013078,

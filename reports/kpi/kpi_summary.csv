@@ -1,0 +1,25 @@
+kpi_no,kpi,value,unit,definition
+1,On-time delivery (OTD),70.98,%,Share of PO lines due by the cut-off whose first receipt arrived on or before the promised date (overdue open lines count as late)
+2,On-time in full (OTIF),62.55,%,Share of due PO lines where the full ordered quantity was received by the promised date
+3,Average delay of late deliveries,10.55,days,"Mean days between promised date and first receipt, late lines only"
+4,Average lead time,12.33,days,Mean days from order date to first receipt
+5,Lead-time variability,8.72,days,Standard deviation of lead time across PO lines
+6,Fill rate,98.88,%,"Quantity received (capped at ordered) / quantity ordered, due lines"
+7,Rejection rate (quantity),0.351,%,Quantity rejected at inspection / quantity inspected
+8,Receipts with rejections,4.52,%,Share of goods receipts with at least one rejected unit
+9,Purchase price variance vs standard cost,4.21,%,Sum((unit price - standard price) x qty) / sum(standard price x qty)
+10,Total spend,1540.04,₹ crore,Sum of PO line values
+11,Top vendor share of spend,18.74,%,Spend with the largest vendor / total spend
+12,Top-5 vendor share of spend,39.29,%,Spend with the 5 largest vendors / total spend
+13,Vendor concentration (HHI),537.0,index,"Herfindahl-Hirschman index of vendor spend shares (0-10,000; >1,500 = concentrated)"
+14,Vendors making up 80% of spend,38.0,vendors,Smallest number of vendors whose spend reaches 80% of the total
+15,Single-source items,18.95,%,Items bought from only one vendor / items bought
+16,Bulk-buy savings realised,104.4,₹ crore,"Sum over bulk lines of (regular price - bulk price) x qty, like-for-like"
+17,Bulk discount vs regular price,13.08,%,Bulk-buy savings / value of bulk lines at regular prices
+18,Urgent-order premium paid,5.16,₹ crore,"Sum over urgent lines of (urgent price - regular price) x qty, like-for-like"
+19,Urgent orders,9.82,%,Share of PO lines raised as urgent
+20,Excess inventory value,99.34,₹ crore,Value (standard cost) of stock above 6 months of cover
+21,Excess inventory share of stock,43.47,%,Excess inventory value / closing stock value
+22,Inventory turnover,2.41,times/year,Last-year consumption at standard cost / average inventory value
+23,Days of inventory on hand,151.6,days,365 / inventory turnover
+24,Overdue open PO lines,289.0,lines,PO lines past their promised date with nothing received

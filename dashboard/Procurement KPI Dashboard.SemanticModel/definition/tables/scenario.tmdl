@@ -1,0 +1,40 @@
+table scenario
+	lineageTag: 4c0c560d-be54-5d9f-83ec-3efe4e12f16b
+
+	column measure
+		dataType: string
+		lineageTag: f968eb94-3828-52f2-b29b-44cd0e9eff15
+		summarizeBy: none
+		sourceColumn: measure
+
+	column now
+		dataType: double
+		formatString: #,0.0
+		lineageTag: 374f7a07-c819-54c1-a4c3-231b18264071
+		summarizeBy: none
+		sourceColumn: now
+
+	column after_resourcing
+		dataType: double
+		formatString: #,0.0
+		lineageTag: 55a1524b-67ee-546d-9e68-16333dc5abc9
+		summarizeBy: none
+		sourceColumn: after_resourcing
+
+	column change
+		dataType: double
+		formatString: +#,0.0;-#,0.0;0.0
+		lineageTag: 28924b00-9871-5892-8c32-0eb58ec5af59
+		summarizeBy: none
+		sourceColumn: change
+
+	partition scenario = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents(ProjectFolder & "\data\powerbi\scenario.csv"), [Delimiter = ",", Encoding = 65001, QuoteStyle = QuoteStyle.Csv]),
+				    Promoted = Table.PromoteHeaders(Source, [PromoteAllScalars = true]),
+				    Typed = Table.TransformColumnTypes(Promoted, {{"measure", type text}, {"now", type number}, {"after_resourcing", type number}, {"change", type number}}, "en-US")
+				in
+				    Typed
+
